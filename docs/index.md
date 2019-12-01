@@ -48,6 +48,11 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 ## What's new in...
 
+### v1.0.7
+* Added support for DirectSound playback (any \[DS\] drivers in the driver list)
+* Added input validation on Noise Settings form
+* Changed default values for both, Noise Settings and Custom Harmonics to -300dB from 0
+
 ### v1.0.6
 * Added additional single and dual tone display options
 * Fixed reported error when no audio driver is selected
