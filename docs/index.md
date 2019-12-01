@@ -18,7 +18,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## How do I get it?
 Here you go:
-<a href="DistortSetup.zip">Download v1.0.5 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DistortSetup.zip">Download v1.0.6 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website to get an updated copy!
@@ -47,6 +47,12 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 * If desired, you can also pick a low pass filter frequency. This is to eliminate the effect of harmonic distortion beyond audible frequencies, say above 20kHz. This filter is applied only when saving a file, not when playing it.
 
 ## What's new in...
+
+### v1.0.6
+* Added additional single and dual tone display options
+* Fixed reported error when no audio driver is selected
+* Fixed reported issue when an audio driver claims to support more bits than it can handle
+* Save... dialog now remembers previous directory
 
 ### v1.0.5
 * Added ability to save and reload distortion settings from a file
