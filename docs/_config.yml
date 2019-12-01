@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: DeltaWave
+title: Distort
 email: pkane2001@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  DeltaWave Audio file Null Tester and Comparison utility
+  Distortion Audibility Tester
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://deltaw.org" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://distortaudio.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  pkane2001
 company_name: Paul K.
@@ -32,8 +32,8 @@ markdown: kramdown
 remote-theme: documentation-theme-jekyll
 
 output: web
-topnav_title: DeltaWave Audio Null Comparator
-site_title: DeltaWave documentation
+topnav_title: Distortion Audibility Tester
+site_title: Distort documentation
 feedback_disable: true
 
 plugins:

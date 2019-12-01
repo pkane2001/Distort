@@ -2,8 +2,8 @@
 
 entries:
 - title: sidebar
-  product: DeltaWave
-  version: 1.0.47b
+  product: Distort
+  version: 1.0.5
   accordion: true
 
   folders:
@@ -17,40 +17,3 @@ entries:
       url: index.html
       output: web, pdf
       type: homepage
-
-    - title: Install
-      url: /get_started.html
-      output: web, pdf
-
-    - title: Release Notes
-      url: /release_notes_1.0b.html
-      output: web, pdf
-
-    - title: Features
-      url: /mydoc_supported_features.html
-      output: web, pdf
-    
-  - title: Instructions
-    output: web, pdf
-    folderitems:
-
-    - title: Quick Start Guide
-      url: /mydoc_quickstart.html
-      output: web, pdf
-
-    - title: Settings
-      url: /settings.html
-      output: web, pdf
-    - title: Plot Controls
-      url: plot_start.html
-      output: web, pdf
-    - title: DeltaWave Comparator
-      url: comparator.html
-      output: web, pdf
-    - title: Technical Details
-      url: /details.html
-      output: web, pdf
-      title: Distort
-      url: /get_distorted.html
-      output: web, pdf
-
