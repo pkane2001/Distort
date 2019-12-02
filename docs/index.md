@@ -12,7 +12,7 @@ comments: true
 ![distort](images/distort1.png)
 
 ## What do I need to run Distort?
-DeltaWave runs on Microsoft Windows and required .NET 4.6 framework to be installed.
+Distort runs on Microsoft Windows and required .NET 4.6 framework to be installed.
 The software is very CPU and memory intensive, recommended configuration at least an I7 4-core processor and 8GB or more of RAM.
 
 
