@@ -46,6 +46,12 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 * If desired, you can also pick a low pass filter frequency. This is to eliminate the effect of harmonic distortion beyond audible frequencies, say above 20kHz. This filter is applied only when saving a file, not when playing it.
 
+* New in 1.0.11 you can combine any of the above settings with customized jitter values
+
+![Noise](images/distort4.png)
+
+
+
 ## What's new in...
 
 
