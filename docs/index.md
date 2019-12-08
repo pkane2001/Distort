@@ -18,7 +18,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## How do I get it?
 Here you go:
-<a href="DistortSetup.zip">Download v1.0.10 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DistortSetup.zip">Download v1.0.11 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website to get an updated copy!
@@ -48,6 +48,16 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 ## What's new in...
 
+
+
+### v1.0.11
+* Added Jitter distortion (random, correlated, close-in and multi-frequency sine-modulated)
+* Added RPT function to repeat playback from start
+* Volume control now applies separately (and is remembered) for Bypass and non-Bypass playback, so each can be controlled independently
+* Fixed Mains frequency to display at 50 and 60Hz, previously displayed as a 3x multiple
+* Added a few more test frequencies useful for testing harmonics and jitter
+* App will load faster after it's used for the first time now. Previously took a long time load each time it was started.
+* (EXPERIMENTAL) added Sone scale (perceptually-weighted). This will likely disappear in the next release
 
 ### v1.0.10
 * Added option to chose the number of generated harmonics, from 1 to 500
