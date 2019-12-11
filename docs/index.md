@@ -18,7 +18,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## How do I get it?
 Here you go:
-<a href="DistortSetup.zip">Download v1.0.11 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DistortSetup.zip">Download v1.0.12 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website to get an updated copy!
@@ -54,7 +54,9 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 ## What's new in...
 
-
+### v1.0.12
+* Jitter sine components table now supports fractional frequencies
+* 
 
 ### v1.0.11
 * Added Jitter distortion (random, correlated, close-in and multi-frequency sine-modulated)
