@@ -56,7 +56,7 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 ### v1.0.12
 * Jitter sine components table now supports fractional frequencies
-* 
+* Fixed the missing down-arrow for some frequency components in jitter settings
 
 ### v1.0.11
 * Added Jitter distortion (random, correlated, close-in and multi-frequency sine-modulated)
