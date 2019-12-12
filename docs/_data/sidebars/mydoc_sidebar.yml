@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Distort
-  version: 1.0.12
+  version: 1.0.13
   accordion: true
 
   folders:

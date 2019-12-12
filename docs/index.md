@@ -18,7 +18,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## How do I get it?
 Here you go:
-<a href="DistortSetup.zip">Download v1.0.12 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DistortSetup.zip">Download v1.0.13 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website to get an updated copy!
@@ -53,6 +53,14 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 
 ## What's new in...
+
+### v1.0.13
+* Fixed multitone display not switching to 1kHz test tone
+* Fixed L/R/Stereo selector not having an effect until after restart
+* Validating the # of allowed Harmonics to be 7..500 instead of 1..500
+* Added clear and reset to main window buttons to Custom Harmonics screen
+* Extrapolate button should work now in Custom Harmonics to fill in missing values
+* Double-click on volume control now resets it 0dB
 
 ### v1.0.12
 * Jitter sine components table now supports fractional frequencies
