@@ -18,7 +18,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## How do I get it?
 Here you go:
-<a href="DistortSetup.zip">Download v1.0.14 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DistortSetup.zip">Download v1.0.15 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website to get an updated copy!
@@ -53,6 +53,10 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 
 ## What's new in...
+
+### v1.0.15
+* Fixed custom harmonics table to show harmonic 2 on row 2, instead of 3
+* Changed the WASAPI driver supported audio bits and rate setting determination logic
 
 ### v1.0.14
 * Added custom sine-wave components to the Noise settings window. Supports frequencies into MHz
