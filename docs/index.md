@@ -54,6 +54,16 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 ## What's new in...
 
+### v1.0.14
+* Added custom sine-wave components to the Noise settings window. Supports frequencies into MHz
+* Improved quality of the close-in (1/f) jitter generator
+* Added square wave to the list of test signals
+* Double-click on the either of the two vertical sliders (alpha and beta) resets them to the initial setting of 1000
+* Quicker reaction to user-initiated changes to settings, even while a computation is already in progress
+* Improved frequency plot resolution from around -150dB to better than -280dB
+* Added clipping indicator when combined noise/jitter/waveforms exceed -1..1 sample range
+* Improved THD+N calculation accuracy
+
 ### v1.0.13
 * Fixed multitone display not switching to 1kHz test tone
 * Fixed L/R/Stereo selector not having an effect until after restart
