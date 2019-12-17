@@ -18,7 +18,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## How do I get it?
 Here you go:
-<a href="DistortSetup.zip">Download v1.0.15 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DistortSetup.zip">Download v1.0.16 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website to get an updated copy!
@@ -53,6 +53,12 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 
 ## What's new in...
+
+### v1.0.16
+* Added an option to hide THD legend on the spectrum plot
+* Added an option to hide the transfer function plot
+* Fixed a rare out-of-bounds condition when using jitter settings
+* Save Reference file menu now saves stereo when two channel option is selected
 
 ### v1.0.15
 * Fixed custom harmonics table to show harmonic 2 on row 2, instead of 3
