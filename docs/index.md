@@ -59,6 +59,7 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 * Added an option to hide the transfer function plot
 * Fixed a rare out-of-bounds condition when using jitter settings
 * Save Reference file menu now saves stereo when two channel option is selected
+* Added an option to dither the result to a specific number of bits
 
 ### v1.0.15
 * Fixed custom harmonics table to show harmonic 2 on row 2, instead of 3
