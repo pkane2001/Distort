@@ -18,7 +18,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## How do I get it?
 Here you go:
-<a href="DistortSetup.zip">Download v1.0.16 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DistortSetup.zip">Download v1.0.17 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website to get an updated copy!
@@ -53,6 +53,14 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 
 ## What's new in...
+
+### v1.0.17
+* Added Bits tab to change dither type (none, TPDF, and Shaped) and to select number of it bits to dither
+* Added Dynamic Range Compression distortion to Custom Transfer Function settings
+* Added Noise Floor setting (no signal) to the available Test Signals
+* Added Blue and Violet noise floor settings
+* Minor bug fixes
+
 
 ### v1.0.16
 * Added an option to hide THD legend on the spectrum plot
