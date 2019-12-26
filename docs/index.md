@@ -55,8 +55,8 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 ## What's new in...
 
 ### v1.0.17
-* Added Bits tab to change dither type (none, TPDF, and Shaped) and to select number of it bits to dither
-* Added Dynamic Range Compression distortion to Custom Transfer Function settings
+* Added Bits tab to select dither type (none, TPDF, and Shaped) and to select the number of bits to dither
+* Added configurable Dynamic Range Compression distortion to Custom Transfer Function settings
 * Added Noise Floor setting (no signal) to the available Test Signals
 * Added Blue and Violet noise floor settings
 * Minor bug fixes
