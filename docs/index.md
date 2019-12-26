@@ -25,6 +25,19 @@ Please check this website to get an updated copy!
 
 Once the file downloads, extract the installer from ZIP archive and run it to install. Follow prompts.
 
+## What's it good for?
+
+DISTORT was conceived as a tool to allow one to apply a combination of complex distortions to any recorded signal, including music and hires recordings. DISTORT also provides simple visualization tools to examine the effects of all the distortions as they are being adjusted. The distorted sound file can be played through the available audio device drivers, from ASIO to WASAPI to Direct Sound.
+
+The following distortions are currently provided with a variety of settings and options:
+
+* Harmonic distortion (THD, SINAD, THD+N)
+* Different noise floors and various spurious noise components, such as mains frequency
+* Various types of jitter, random, correlated, 1/f noise, and at various frequencies
+* Dynamic range compression effects
+* Different types of dither and bit settings
+* more to come!
+
 
 ## How do I use it?
 
