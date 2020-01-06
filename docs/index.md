@@ -11,6 +11,9 @@ comments: true
 
 ![distort](images/distort1.png)
 
+## Support forum
+During the development and beta-testing of DISTORT, you can report issues, ask questions and make suggestions on the ASR forum [here](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-distort-audibility-of-distortions.10163/post-277173).
+
 ## What do I need to run Distort?
 Distort runs on Microsoft Windows and required .NET 4.6 framework to be installed.
 The software is very CPU and memory intensive, recommended configuration at least an I7 4-core processor and 8GB or more of RAM.
