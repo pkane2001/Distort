@@ -21,7 +21,7 @@ The software is very CPU and memory intensive, recommended configuration at leas
 
 ## How do I get it?
 Here you go:
-<a href="DistortSetup.zip">Download v1.0.18 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
+<a href="DistortSetup.zip">Download v1.0.19 64-bit <input type="image" id="download" alt="Download" src="images/windows-logo.png" width="30" align="top" />   </a>
 
 
 Please check this website to get an updated copy!
@@ -69,6 +69,10 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 
 
 ## What's new in...
+
+### v1.0.19
+* Added negative feedback setting
+* Fixed right channel scaling when saving distorted file to match the left channel
 
 ### v1.0.18
 * Added a number of simulated transfer functions for various tube (pre)amps
