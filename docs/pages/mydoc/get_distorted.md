@@ -54,6 +54,5 @@ Run Distort, pick a WAV file you may want to apply distortion to by clicking on 
 * Added ability to save and reload distortion settings from a file
 * Added brown noise floor option (-6dB/octave)
 
-![Noise](images/er.gif)
 ___
 {% include links.html %}
