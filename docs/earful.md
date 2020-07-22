@@ -12,7 +12,7 @@ comments: true
 
 ![distort](images/earful1.png)
 
-<a href="earfulsetup.zip">Download Earful<input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
+<a href="EarfulSetup.zip">Download Earful for Windows    <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
 
 
 ## What is it? And a WARNING!
