@@ -1,5 +1,5 @@
 ---
-title: Release notes
+title: Earful Release notes
 tags: [Earful]
 keywords: release notes, announcements, what's new, new features
 last_updated: July 22, 2020
@@ -12,7 +12,7 @@ comments: true
 
 ![distort](images/earful1.png)
 
-<br>
+
 <br>
 <br>
 
