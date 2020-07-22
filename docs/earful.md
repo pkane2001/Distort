@@ -26,6 +26,8 @@ Earful is an app designed to measure and evaluate the lower threshold of hearing
 The app is free to use, but to use it, you must agree to do so *AT YOUR OWN RISK ONLY*. Make sure that the volume settings are set such that any loud sounds played through your system will not damage your equipment or your hearing! This is important. Set the frequency range in Earful correctly, and also specify the maximum volume setting at a low number to avoid surprises (default is -20dBFS).
 
 ## How to use
+The mission, should you chose to accept it, is to move the volume control up and down in small increments until you find the spot where the sound produced by Earful disappears or becomes inaudible. When you find this place, move up one step, and that will determine the lowest audibility threshold for that frequency. Repeat for all the points across the spectrum, and you'll get your entire threshold curve!
+
 ### Preparation
 * Start by selecting the desired audio output device from the drop-down list
 * Use headphones or speakers, although headphones are probably a better way to determine your lowest hearing threshold
@@ -42,7 +44,9 @@ The app is free to use, but to use it, you must agree to do so *AT YOUR OWN RISK
 * To jump quickly to any point in the test, use the horizontal slider control labeled Current Point
 * When at the desired test frequency, Earful will automatically start issuing the selected sounds, interrupted by a short period of silence
 * If you can't hear the tones, try increasing the volume by pressing the Up arrow. If the tones are loud, press the Down button until they become barely audible
+* You can use the volume slider on the right to quickly adjust the volume if the current setting is too far off. BUT PLEASE BE CAREFUL WHEN ADJUSTING UP, as you may accidentally jump to a point that's very loud. The slider will not allow setting the volume above the maximum setting specified at the start
 * Keep pressing up or down buttons until you get to the point where the tones are hard to hear. If you push the down arrow once at this point and the tones become inaudible -- congratulations! You've found the lowest threshold of hearing for this frequency. Move on to the next frequency by pressing the Right button.
+* 
 * You can always go back and re-test any of the points you've already measured, just press the Left button to go back.
 * Continue through all the points in the test. When completed, you'll see your lowest audibility threshold curve in the plot.
 
