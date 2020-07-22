@@ -12,7 +12,9 @@ comments: true
 
 ![distort](images/earful1.png)
 
-
+<br>
+<br>
+<br>
 
 
 <a href="EarfulSetup.zip">Download Earful for Windows    <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
