@@ -17,3 +17,7 @@ entries:
       url: index.html
       output: web, pdf
       type: homepage
+    - title: Earful App
+          url: earful.html
+          output: web, pdf
+          type: homepage

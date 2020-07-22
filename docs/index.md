@@ -11,6 +11,10 @@ comments: true
 
 ![distort](images/distort1.png)
 
+
+<a href="earful.html">NEWS FLASH! New app available - Earful<input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
+
+
 ## Support forum
 During the development and beta-testing of DISTORT, you can report issues, ask questions and make suggestions on the ASR forum [here](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-distort-audibility-of-distortions.10163/post-277173).
 
