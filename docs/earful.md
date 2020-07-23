@@ -2,7 +2,7 @@
 title: Earful Release notes
 tags: [Earful]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 22, 2020
+last_updated: July 23, 2020
 summary: "Earful v1.0 is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: earful.html
@@ -59,6 +59,10 @@ The mission, should you chose to accept it, is to move the volume control up and
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
 
+## Changes in 1.0.3
+* Added dBSPL display option
+* Added SPL Meter calibration
+* Changed data file loader to use proper regional settings for decimal separator
 
 ## Changes in 1.0.2
 * The initial public beta release of Earful
