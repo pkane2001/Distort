@@ -4,7 +4,6 @@ tags: [Earful]
 keywords: release notes, announcements, what's new, new features
 last_updated: July 23, 2020
 summary: "Earful v1.0 is the initial beta release of this software. Use at your own risk!"
-sidebar: mydoc_sidebar
 permalink: earful.html
 folder: mydoc
 comments: true
