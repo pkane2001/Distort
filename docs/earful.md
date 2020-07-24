@@ -7,6 +7,7 @@ summary: "Earful v1.0 is the initial beta release of this software. Use at your 
 sidebar: mydoc_sidebar
 permalink: earful.html
 folder: mydoc
+toc: false
 comments: true
 ---
 
@@ -58,6 +59,14 @@ The mission, should you chose to accept it, is to move the volume control up and
 * Clear All button on the right allows all the data to be cleared from Earful to start over. Please save any data that you may have captured up to this point, as it will be lost.
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
+
+## Changes in 1.0.5
+* Fixed many audio threads created when moving around the chart
+* Added screen shot button
+* Added current step counter display
+* Fixed clearing the first data point when data is cleared by setting volume slider to starting volume
+* Added saving current settings on exit and reloading on start
+
 
 ## Changes in 1.0.4
 * Speeded up audio signal generation for slower processors
