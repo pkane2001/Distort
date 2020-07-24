@@ -59,6 +59,9 @@ The mission, should you chose to accept it, is to move the volume control up and
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
 
+## Changes in 1.0.4
+* Speeded up audio signal generation for slower processors
+
 ## Changes in 1.0.3
 * Added dBSPL display option
 * Added SPL Meter calibration
