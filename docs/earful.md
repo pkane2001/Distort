@@ -2,7 +2,7 @@
 title: Earful Release notes
 tags: [Earful]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 23, 2020
+last_updated: July 25, 2020
 summary: "Earful v1.0 is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: earful.html
@@ -59,6 +59,13 @@ The mission, should you chose to accept it, is to move the volume control up and
 * Clear All button on the right allows all the data to be cleared from Earful to start over. Please save any data that you may have captured up to this point, as it will be lost.
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
+
+## Changes in 1.0.6
+* Fixed labels not cleared on the graph after the data is cleared
+* Fixed WASAPI exclusive mode not turning on for some audio drivers
+* Fixed automatic switch between shared/exclusive mode when the checkbox is changed
+* Added a little delay when reacting to previous/next buttons or the slider to reduce sound glitching
+* Fixed first data point value not set correctly in saved data after reloading on start-up of Earful
 
 ## Changes in 1.0.5
 * Fixed many audio threads created when moving around the chart
