@@ -1,5 +1,5 @@
 ---
-title: Earful Release notes
+title: Earful - Audiophile Hearing Test App
 tags: [Earful]
 keywords: release notes, announcements, what's new, new features
 last_updated: July 25, 2020
