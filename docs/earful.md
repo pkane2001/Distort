@@ -26,6 +26,15 @@ Earful is an app designed to measure and evaluate the lower threshold of hearing
 
 The app is free to use, but to use it, you must agree to do so *AT YOUR OWN RISK ONLY*. Make sure that the volume settings are set such that any loud sounds played through your system will not damage your equipment or your hearing! This is important. Set the frequency range in Earful correctly, and also specify the maximum volume setting at a low number to avoid surprises (default is -20dBFS).
 
+## Features
+* Pick your own frequency range for the test
+* Specify any number of logarithmically spread points to test along the frequency axis
+* Compare your results to others, compare to your older tests to check for changes, or compare to any of the industry standard, published curves  
+* Test with a single tone, a warble tone, or a band-limited white noise
+* Using a simple text format supported by REW, so the result can be loaded into that tool directly
+* Supports ASIO, WASAPI exclusive/shared, and Direct Sound device drivers
+* Display in dB SPL or in db FS with configurable dBSPL calibration
+
 ## How to use
 The mission, should you chose to accept it, is to move the volume control up and down in small increments until you find the spot where the sound produced by Earful disappears or becomes inaudible. When you find this place, move up one step, and that will determine the lowest audibility threshold for that frequency. Repeat for all the points across the spectrum, and you'll get your entire threshold curve!
 
