@@ -2,7 +2,7 @@
 title: Earful - Audiophile Hearing Test App
 tags: [Earful]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 25, 2020
+last_updated: July 27, 2020
 summary: "Earful v1.0 is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: earful.html
@@ -34,6 +34,7 @@ The app is free to use, but to use it, you must agree to do so *AT YOUR OWN RISK
 * Using a simple text format supported by REW, so the result can be loaded into that tool directly
 * Supports ASIO, WASAPI exclusive/shared, and Direct Sound device drivers
 * Display in dB SPL or in db FS with configurable dBSPL calibration
+* Apply a flat calibration curve to account for variations in headphones or speakers
 
 ## How to use
 The mission, should you chose to accept it, is to move the volume control up and down in small increments until you find the spot where the sound produced by Earful disappears or becomes inaudible. When you find this place, move up one step, and that will determine the lowest audibility threshold for that frequency. Repeat for all the points across the spectrum, and you'll get your entire threshold curve!
@@ -69,6 +70,13 @@ The mission, should you chose to accept it, is to move the volume control up and
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
 
+## Changes in 1.0.7
+* Added support for applying headphone calibration curves for flat response (excellent source here: <a href="https://github.com/jaakkopasanen/AutoEq">https://github.com/jaakkopasanen/AutoEq</a> )
+* Added Shift-Click to directly select any point on the plot
+* Added Shift-Left/Right/Up/Down to control selecting frequency and setting volume directly from the keyboard
+* Fixed exceptions when ASIO or WASAPI drivers are not supported (for example, under Wine on Linux)
+* Fixed data points being set to the previous point volume setting when the actual value is -120dB
+ 
 ## Changes in 1.0.6
 * Fixed labels not cleared on the graph after the data is cleared
 * Fixed WASAPI exclusive mode not turning on for some audio drivers
