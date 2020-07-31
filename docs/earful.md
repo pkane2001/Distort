@@ -71,7 +71,7 @@ The mission, should you chose to accept it, is to move the volume control up and
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
 
 ## Changes in 1.0.7
-* Added support for applying headphone calibration curves for flat response (excellent source here: <a href="https://github.com/jaakkopasanen/AutoEq">https://github.com/jaakkopasanen/AutoEq</a> )
+* Added support for applying headphone calibration curves for flat response (a pure frequency response of a microphone coupled to the headphones)
 * Added Shift-Click to directly select any point on the plot
 * Added Shift-Left/Right/Up/Down to control selecting frequency and setting volume directly from the keyboard
 * Fixed exceptions when ASIO or WASAPI drivers are not supported (for example, under Wine on Linux)
