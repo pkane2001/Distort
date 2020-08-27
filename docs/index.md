@@ -17,8 +17,11 @@ comments: true
 
 
 
-<a href="earful.html">NEWS FLASH! New app available - Earful    <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
+## You may also be interested in these:
+* <a href="https://deltaw.org" target="_blank">DeltaWave</a> - Audio null analyzer and audibility tester
+* <a href="https://distortaudio.org/earful.html">Earful <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" /></a> - An audiophile Hearing Test 
 
+<br>
 
 ## Support forum
 During the development and beta-testing of DISTORT, you can report issues, ask questions and make suggestions on the ASR forum [here](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-distort-audibility-of-distortions.10163/post-277173).

@@ -21,6 +21,13 @@ comments: true
 <a href="EarfulSetup.zip">Download Earful for Windows    <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
 
 
+
+## You may also be interested in these:
+* <a href="https://deltaw.org" target="_blank">DeltaWave</a> - Audio null analyzer and audibility tester
+* <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio
+<br>
+
+
 ## What is it? And a WARNING!
 Earful is an app designed to measure and evaluate the lower threshold of hearing across a frequency spectrum. It is designed to run on Windows and support ASIO, WASAPI, and Direct Sound audio devices. Use with headphones is recommended for greater accuracy and noise elimination.
 
