@@ -2,7 +2,7 @@
 title: Earful - Audiophile Hearing Test App
 tags: [Earful]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 27, 2020
+last_updated: Dec 16, 2020
 summary: "Earful v1.0 is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: earful.html
@@ -18,7 +18,7 @@ comments: true
 <br>
 
 
-<a href="EarfulSetup.zip">Download Earful for Windows    <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
+<a href="EarfulSetup.zip">Download Earful for Windows v1.0.9   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
 
 
 
@@ -76,6 +76,12 @@ The mission, should you chose to accept it, is to move the volume control up and
 * Clear All button on the right allows all the data to be cleared from Earful to start over. Please save any data that you may have captured up to this point, as it will be lost.
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
+
+## Changes in 1.0.9
+* Added Clipping indicator
+* Added Pink noise option
+* Added Q setting for pink and white noise band-pass filter
+* Added Left, Right, or Both ears selector
 
 ## Changes in 1.0.7
 * Added support for applying headphone calibration curves for flat response (a pure frequency response of a microphone coupled to the headphones)
