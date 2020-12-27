@@ -2,7 +2,7 @@
 title: Earful - Audiophile Hearing Test App
 tags: [Earful]
 keywords: release notes, announcements, what's new, new features
-last_updated: Dec 16, 2020
+last_updated: Dec 27, 2020
 summary: "Earful v1.0 is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: earful.html
@@ -18,7 +18,7 @@ comments: true
 <br>
 
 
-<a href="EarfulSetup.zip">Download Earful for Windows v1.0.9   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
+<a href="EarfulSetup.zip">Download Earful for Windows v1.0.10   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
 
 
 
@@ -31,6 +31,10 @@ comments: true
 ## What is it? And a WARNING!
 Earful is an app designed to measure and evaluate the lower threshold of hearing across a frequency spectrum. It is designed to run on Windows and support ASIO, WASAPI, and Direct Sound audio devices. Use with headphones is recommended for greater accuracy and noise elimination.
 
+In addition, with version .10, Earful now supports two other types of tests: 
+* Equal-loudness testing using the same device and 1kHz reference tone
+* Two devices equal-loudness testing, using a reference device, such as speakers, and a test devices, such as headphones
+
 The app is free to use, but to use it, you must agree to do so *AT YOUR OWN RISK ONLY*. Make sure that the volume settings are set such that any loud sounds played through your system will not damage your equipment or your hearing! This is important. Set the frequency range in Earful correctly, and also specify the maximum volume setting at a low number to avoid surprises (default is -20dBFS).
 
 ## Features
@@ -42,9 +46,14 @@ The app is free to use, but to use it, you must agree to do so *AT YOUR OWN RISK
 * Supports ASIO, WASAPI exclusive/shared, and Direct Sound device drivers
 * Display in dB SPL or in db FS with configurable dBSPL calibration
 * Apply a flat calibration curve to account for variations in headphones or speakers
+* Equal-loudness testing using a 1kHz reference or a separate audio device
 
 ## How to use
 The mission, should you chose to accept it, is to move the volume control up and down in small increments until you find the spot where the sound produced by Earful disappears or becomes inaudible. When you find this place, move up one step, and that will determine the lowest audibility threshold for that frequency. Repeat for all the points across the spectrum, and you'll get your entire threshold curve!
+
+To test equal loudness at a specific volume, set Test Type to Equal Loudness, then set the Start Vol the desired volume for reference tone at 1kHz. Select the desired frequency and move volume slider up and down to get the two tones to become as close as possible in level. When 1kHz tone is playing, "REFERENCE" badge will show on the screen. The reference tone will play at the same level and at 1kHz frequency once you start the test. Please don't raise the volume to unsafe levels, even if you don't hear the tone, it can still damage your hearing at high enough levels!
+
+To determine equal loudness curve using a second audio device, set Test Type to EQ Two Devices, then pick the two audio devices. On the same screen, you will set the reference tone volume level. The sound will alternately come from reference and test devices. The sound will be at the frequency you select using left/right arrows, but the reference volume will be kept constant at the setting you chose. Your job is to adjust the test device tone level to sound exactly as loud as the reference tone at different frequencies. "REFERENCE" badge will show on the screen when the reference device is playing. Again, please don't raise the volume to unsafe levels, even if you don't hear the tone, it can still damage your hearing at high enough levels!
 
 ### Preparation
 * Start by selecting the desired audio output device from the drop-down list
@@ -76,6 +85,12 @@ The mission, should you chose to accept it, is to move the volume control up and
 * Clear All button on the right allows all the data to be cleared from Earful to start over. Please save any data that you may have captured up to this point, as it will be lost.
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
+
+## Changes in 1.0.10
+* Added Test Type selector
+* Added Equal Loudness Curve test
+* Added Two-device Equal Loudness test
+* Added REFERENCE badge indicator
 
 ## Changes in 1.0.9
 * Added Clipping indicator
