@@ -18,7 +18,7 @@ comments: true
 <br>
 
 
-<a href="EarfulSetup.zip">Download Earful for Windows v1.0.10   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
+<a href="EarfulSetup.zip">Download Earful for Windows v1.0.11   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
 
 
 
