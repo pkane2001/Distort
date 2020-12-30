@@ -88,7 +88,8 @@ That's it for now! Hope you find Earful useful, and looking forward to your feed
 
 
 ## Changes in 1.0.11
-* Changed timing in EQ Two Devices to reduce overlap and interference between reference and test signals
+* Changed: timing in EQ Two Devices to reduce overlap and interference between reference and test signals
+* Changed: Reference device in EQ Two Devices test now always plays in both channels, Left/Right/Both control only applies to the test device
 
 ## Changes in 1.0.10
 * Added Test Type selector
