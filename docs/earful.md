@@ -53,7 +53,7 @@ The mission, should you chose to accept it, is to move the volume control up and
 
 To test equal loudness at a specific volume, set Test Type to Equal Loudness, then set the Start Vol the desired volume for reference tone at 1kHz. Select the desired frequency and move volume slider up and down to get the two tones to become as close as possible in level. When 1kHz tone is playing, "REFERENCE" badge will show on the screen. The reference tone will play at the same level and at 1kHz frequency once you start the test. Please don't raise the volume to unsafe levels, even if you don't hear the tone, it can still damage your hearing at high enough levels!
 
-To determine equal loudness curve using a second audio device, set Test Type to EQ Two Devices, then pick the two audio devices. On the same screen, you will set the reference tone volume level. The sound will alternately come from reference and test devices. The sound will be at the frequency you select using left/right arrows, but the reference volume will be kept constant at the setting you chose. Your job is to adjust the test device tone level to sound exactly as loud as the reference tone at different frequencies. "REFERENCE" badge will show on the screen when the reference device is playing. Again, please don't raise the volume to unsafe levels, even if you don't hear the tone, it can still damage your hearing at high enough levels!
+To determine equal loudness curve using a second audio device, set Test Type to EQ Two Devices, then pick the two audio devices. PLEASE NOTE: both devices should be set to the same sampling rate. On the same screen, you will set the reference tone volume level. The sound will alternately come from reference and test devices. The sound will be at the frequency you select using left/right arrows, but the reference volume will be kept constant at the setting you chose. Your job is to adjust the test device tone level to sound exactly as loud as the reference tone at different frequencies. "REFERENCE" badge will show on the screen when the reference device is playing. Again, please don't raise the volume to unsafe levels, even if you don't hear the tone, it can still damage your hearing at high enough levels!
 
 ### Preparation
 * Start by selecting the desired audio output device from the drop-down list
@@ -86,11 +86,16 @@ To determine equal loudness curve using a second audio device, set Test Type to 
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
 
+
+## Changes in 1.0.11
+* Changed timing in EQ Two Devices to reduce overlap and interference between reference and test signals
+
 ## Changes in 1.0.10
 * Added Test Type selector
 * Added Equal Loudness Curve test
 * Added Two-device Equal Loudness test
 * Added REFERENCE badge indicator
+* Added Warning/Agreement text for first time users
 
 ## Changes in 1.0.9
 * Added Clipping indicator
