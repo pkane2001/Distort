@@ -19,8 +19,8 @@ comments: true
 
 ## You may also be interested in these:
 * <a href="https://deltaw.org" target="_blank">DeltaWave</a> - Audio null analyzer and audibility tester
-* <a href="https://distortaudio.org/earful.html">Earful <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" /></a> - An audiophile Hearing Test 
-* <a href="https://distortaudio.org/pkharmonic.html">PKHarmonic VST Plugin <input type="image" id="pkharmonic" alt="PKHarmonic" src="images/earful_logo.png" width="30" align="top" /></a> - VST Plugin to add the desired level of 2nd and other harmonics 
+* <a href="https://distortaudio.org/earful.html">Earful </a> - An audiophile Hearing Test 
+* <a href="https://distortaudio.org/pkharmonic.html">PKHarmonic VST Plugin </a> - VST Plugin to add the desired level of 2nd and other harmonics 
 <br>
 
 ## Support forum

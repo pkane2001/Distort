@@ -26,7 +26,7 @@ comments: true
 * <a href="https://deltaw.org" target="_blank">DeltaWave</a> - Audio null analyzer and audibility tester
 * <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio
 <br>
-* <a href="https://distortaudio.org/earful.html">Earful <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" /></a> - An audiophile Hearing Test 
+* <a href="https://distortaudio.org/earful.html">Earful </a> - An audiophile Hearing Test 
 
 <br>
 Use the PayPal Donate button below to help me develop this and other Audio software! Leave me a note with payment to indicate which software you're using, and anything else that you'd like to see written:
