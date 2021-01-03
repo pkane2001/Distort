@@ -1,5 +1,5 @@
 ---
-title: PKHarmoni VST Plugin - Audiophile Harmonics Generator 
+title: PKHarmonic VST Plugin - Audiophile Harmonics Generator 
 tags: [PKHarmonic]
 keywords: release notes, announcements, what's new, new features
 last_updated: Jan 3, 2021
