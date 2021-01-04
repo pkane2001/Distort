@@ -19,7 +19,7 @@ comments: true
 
 
 <a href="PKHarmonic64.zip">Download 64-bit PKHarmonic VST for Windows  </a><br>
-<a href="PKHarmonic64.zip">Download 32-bit PKHarmonic VST for Windows </a>
+<a href="PKHarmonic32.zip">Download 32-bit PKHarmonic VST for Windows </a>
 
 Support and feedback for PKHarmonic available at this <a href="https://www.audiosciencereview.com/forum/index.php?threads/announcing-beta-test-of-pkharmonic-vst-plugin.19063/post-624652">ASR thread.</a>
 
