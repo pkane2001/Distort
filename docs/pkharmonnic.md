@@ -12,9 +12,6 @@ comments: true
 ---
 
 ![PKHarmonic](images/pkharmonic.png)
-
-
-<br>
 <br>
 
 # Version 1.0.2
@@ -65,7 +62,7 @@ C:\Program Files (x86)\PKAudio\PKHarmonic32 for the 32-bit plugin
 Then, follow the instructions for your specific player software that supports VST to add it to the audio chain. If you use Equalizer APO, you can add PKHarmonic to all audio playback that EQ APO supports, regardless of the player.
 
 ## Changes in 1.0.2
-* Changed the 32-bit installed to remove extra System.* DLL files
+* Changed the 32-bit installer to remove extra System.* DLL files
 
 ## Changes in 1.0.1
 * Initial public release of PKHarmonic VST Plugin
