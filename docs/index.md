@@ -23,6 +23,17 @@ comments: true
 * <a href="https://distortaudio.org/pkharmonic.html">PKHarmonic VST Plugin </a> - VST Plugin to add the desired level of 2nd and other harmonics 
 <br>
 
+<br>
+Use the PayPal Donate button below to help me develop this and other Audio software! Leave me a note with payment to indicate which software you're using, and anything else that you'd like to see written:
+<br><br>
+<form action="https://www.paypal.com/donate" method="post" target="_top">
+<input type="hidden" name="hosted_button_id" value="79SK4HAQSSP3Q" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+<img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+<br>
+
+
 ## Support forum
 During the development and beta-testing of DISTORT, you can report issues, ask questions and make suggestions on the ASR forum [here](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-distort-audibility-of-distortions.10163/post-277173).
 
