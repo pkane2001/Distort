@@ -18,7 +18,7 @@ comments: true
 <br>
 
 
-<a href="EarfulSetup.zip">Download Earful for Windows v1.0.11   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
+<a href="EarfulSetup.zip">Download Earful for Windows v1.0.12   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
 
 
 
@@ -86,6 +86,11 @@ To determine equal loudness curve using a second audio device, set Test Type to 
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
 
+
+## Changes in 1.0.12
+* Changed: separation timing in EQ Two Devices to reduce overlap
+* Fixed: Can change signal type while the sounds are playing
+* Fixed: intermittent: WASAPI playback might freeze when the pause button is pressed 
 
 ## Changes in 1.0.11
 * Changed: timing in EQ Two Devices to reduce overlap and interference between reference and test signals
