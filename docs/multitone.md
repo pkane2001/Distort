@@ -75,7 +75,7 @@ Don't use this with your speakers or headphones! The test signals are designed f
 5. Currently, the same ASIO device cannot be used for both, input and output. This will be fixed, but either select different ASIO devices or use one WASAPI and one ASIO, if at all possible.
 
 ## Changes in 1.0.0
-* The initial public beta release of Earful
+* The initial public beta release of Multitone Analyzer
 
 ___
 {% include links.html %}
