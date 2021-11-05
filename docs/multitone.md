@@ -74,6 +74,11 @@ Don't use this with your speakers or headphones! The test signals are designed f
 4. The Frequency Response chart is only generated with large-size multi-tone test signals (greater than 5 tones). It will be blank for all other test signals.
 5. Currently, the same ASIO device cannot be used for both, input and output. This will be fixed, but either select different ASIO devices or use one WASAPI and one ASIO, if at all possible.
 
+
+## Changes in 1.0.1
+* Added option to invert L or R channel in settings
+* Fixed an issue with averages that caused lower overal signal level
+
 ## Changes in 1.0.0
 * The initial public beta release of Multitone Analyzer
 
