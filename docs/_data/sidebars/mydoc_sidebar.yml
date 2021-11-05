@@ -19,11 +19,9 @@ entries:
       type: homepage
 
   - title: Earful
-    url: earful.html
+    url: /earful.html
     output: web, pdf
-    type: homepage
-
+    
   - title: Multitone
-    url: multitone.html
+    url: /multitone.html
     output: web, pdf
-    type: homepage
