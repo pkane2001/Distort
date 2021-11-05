@@ -21,9 +21,9 @@ entries:
   - title: Earful
     url: earful.html
     output: web, pdf
-    type: page
+    type: homepage
 
   - title: Multitone
     url: multitone.html
     output: web, pdf
-    type: page
+    type: homepage
