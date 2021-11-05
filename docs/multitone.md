@@ -21,7 +21,7 @@ comments: true
 <br>
 
 
-<a href="MultitoneSetup\.zip">Download Multitone for Windows v1.0.0   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for Windows v1.0.0   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
 
 
