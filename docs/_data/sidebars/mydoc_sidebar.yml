@@ -17,4 +17,13 @@ entries:
       url: index.html
       output: web, pdf
       type: homepage
- 
+
+  - title: Earful
+    url: earful.html
+    output: web, pdf
+    type: page
+
+  - title: Multitone
+    url: multitone.html
+    output: web, pdf
+    type: page
