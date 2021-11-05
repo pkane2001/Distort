@@ -1,5 +1,5 @@
 ---
-title: Multitone - Multitone Loopback Analyzer for Audio
+title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
 last_updated: Nov 4, 2021
