@@ -25,6 +25,8 @@ comments: true
 
 
 
+
+
 ## You may also be interested in these:
 * <a href="https://deltaw.org" target="_blank">DeltaWave</a> - Audio null analyzer and audibility tester
 * <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio
@@ -32,6 +34,8 @@ comments: true
 * <a href="https://distortaudio.org/earful.html">Earful </a> - An audiophile Hearing Test 
 <br>
 
+## Support forum
+During the development and beta-testing of Multitone Analyzer, you can report issues, ask questions and make suggestions on the ASR forum [here](https://www.audiosciencereview.com/forum/index.php?threads/beta-test-multitone-loopback-analyzer-software.27844/).
 
 ## What is it?
 Multitone Analyzer is an app designed to explore audio electronics performance by producing quick measurements using a simple loop-back configuration. MA produces a specific set of test tones that are sent to a digital-to-analog converter (DAC) that are then passed through one or more analog components and then received by MA and analyzed. MA both, plays the signals and records them for analysis. DAC and ADC are required for this to work.
