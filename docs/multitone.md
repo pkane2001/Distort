@@ -75,6 +75,13 @@ Don't use this with your speakers or headphones! The test signals are designed f
 5. Currently, the same ASIO device cannot be used for both, input and output. This will be fixed, but either select different ASIO devices or use one WASAPI and one ASIO, if at all possible.
 
 
+## Changes in 1.0.2
+* Fixed occasional crash with a single ASIO device
+* Added option to turn on or off distortions and signal in spectrum and wave plots
+* Added option to display in auto-dBr
+* Added auto-update option when new versions of Multitone are released
+* Added Multitone 32 (AP) test signal to reproduce AudioPrecision 32 tone test
+
 ## Changes in 1.0.1
 * Added option to invert L or R channel in settings
 * Fixed an issue with averages that caused lower overal signal level
