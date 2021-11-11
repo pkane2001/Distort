@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.2   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.3   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.2">
+<input type="hidden" id="version" name="version" value="1.0.3">
 
 
 
@@ -73,6 +73,14 @@ Don't use this with your speakers or headphones! The test signals are designed f
 3. If you're not in a rush, it's nearly always better to set the FFT size to the largest available
 4. The Frequency Response chart is only generated with large-size multi-tone test signals (greater than 5 tones). It will be blank for all other test signals.
 5. Currently, the same ASIO device cannot be used for both, input and output. This will be fixed, but either select different ASIO devices or use one WASAPI and one ASIO, if at all possible.
+
+
+## Changes in 1.0.3
+* Added Measurement History window to compare results
+* Added dither test signal option to settings
+* Added clear plots button
+* Changed multi-tone generation for better separation in lower frequencies
+* Fix an error when enumerating audio devices that don't report their settings
 
 
 ## Changes in 1.0.2
