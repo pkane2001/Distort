@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.4   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.5   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.4">
+<input type="hidden" id="version" name="version" value="1.0.5">
 
 
 
@@ -73,6 +73,84 @@ Don't use this with your speakers or headphones! The test signals are designed f
 3. If you're not in a rush, it's nearly always better to set the FFT size to the largest available
 4. The Frequency Response chart is only generated with large-size multi-tone test signals (greater than 5 tones). It will be blank for all other test signals.
 
+
+## Adding custom test signals
+You can design a completely custom test signal by just editing in the parameters on the MA main window. To save the new test, press the + button next to the edit box. The test will be available next time you restart Multitone Analyzer, just pick it from the drop-down list. If you need to remove a previously saved custom test, select it from the list and click the '-' button next to the edit box.
+
+The test tone specification format is fairly simple: test name, followed by one or more frequencies, optionally followed by amplitude ratios.
+
+The name of new test signal must contain no spaces. Frequency can be entered using Hz or kHz or k as a suffix: for example 100Hz, 0.1kHz, or 0.1k are all equivalent. If a modifier is omitted, Hz is assumed.
+
+### Modifying existing test signals
+You can change the parameters of any of the existing test signals and save that as a new test.
+
+For example, starting with ``Multitone 32``, you can change it to ``Multitone 55``. The name of the signal, Multitone, must not be changed in this case but you can change the number of tones to any desired value.
+
+Or, starting with ``SMPTE 60Hz/7k 4:1`` you can modify the two frequencies or the amplitude ratios to produce new test signals. Or you can even add another frequency or two into the mix.
+
+```
+SMPTE 100Hz/7.123k 4:1
+SMPTE 25Hz/7k 5:1
+SMPTE 30/60/1k/7k/13k 4:4:1:1
+etc.
+```
+Similarly, you can modify the standard DIN tests:
+
+```
+DIN 300Hz/7k 4:1
+DIN 250/1k/7k 4:1:1
+```
+
+### A single sinewave at a specific frequency
+
+Format: ``Name freq``
+
+Examples:
+
+```
+Sin_100hz 100
+MySine 100Hz
+NewTest 15kHz
+Test_15k 15k
+```
+
+### Multiple sinewaves
+
+Multiple sine frequencies can be specified by separataing them with a forward slash:
+
+Format: ``Name freq1/freq2/.../freqN``
+
+If you want to change the amplitude ratios between the multiple frequencies, these can be added after the frequency list, separated by ':'
+
+Format: ``Name freq1/freq2/.../freqN ratio1:ratio2:...:ratioN``
+
+Ratio 4:1 for example specifies that the first sinewave will have 4x the amplitude of the second one. If ratios are omitted, all sinewaves specified will have the same amplitudes (equivalent to 1:1:...:1)
+
+Examples:
+
+```
+MT_Test1 100Hz/13kHz
+MT_Test2 20/100/13k/13.1k/15k
+MT_Test3 100Hz/13kHz 4:1
+MT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
+```
+
+### Adding a square wave
+You can specify *at most one* square wave frequency in your test signal. This is done by preceding the very first frequency with 'sq:'. One square wave can be mixed with multiple sinewaves, if desired.
+
+Examples:
+```
+SQT_OneSqWave sq:100.5Hz
+SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
+SQT_Test3 sq:1000Hz/13kHz 4:1
+SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
+```
+
+## Changes in 1.0.5
+* Added support for saving/removing custom test signals
+* Added additional metrics (frequency, THD, SNR, and ENOB) to a single-tone test result
+* Added current FFT window on the main display above the FFT size
+* Changed "Dirichlet" FFT window name to "Dirichlet (Rect)"
 
 ## Changes in 1.0.4
 * Added support for using the same ASIO driver for input and output
