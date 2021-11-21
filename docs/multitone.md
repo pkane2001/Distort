@@ -150,7 +150,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 
 ## Changes in 1.0.6
 * Added an additional pass of crest factor optimization to multitone generator
-* Crest factor is not displayed for all test waveforms
+* Crest factor is now displayed for all test waveforms
 
 ## Changes in 1.0.5
 * Added support for saving/removing custom test signals
