@@ -73,6 +73,7 @@ Don't use this with your speakers or headphones! The test signals are designed f
 3. If you're not in a rush, it's nearly always better to set the FFT size to the largest available
 4. The Frequency Response chart is only generated with large-size multi-tone test signals (greater than 5 tones). It will be blank for all other test signals.
 
+![multitone](images/multitone5.png)
 
 ## Adding custom test signals
 You can design a completely custom test signal by just editing in the parameters on the MA main window. To save the new test, press the + button next to the edit box. The test will be available next time you restart Multitone Analyzer, just pick it from the drop-down list. If you need to remove a previously saved custom test, select it from the list and click the '-' button next to the edit box.
