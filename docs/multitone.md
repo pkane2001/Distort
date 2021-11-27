@@ -3,7 +3,7 @@ title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
 last_updated: Nov 4, 2021
-summary: "Multitone v1.0 is the initial beta release of this software. Use at your own risk!"
+summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
 folder: mydoc
@@ -46,7 +46,7 @@ Multitone Analyzer is an app designed to explore audio electronics performance b
 * FFT sizes of up to 1M
 * For distortion measurements a range of frequencies to measure can be selected
 
-## How not to use it!
+## How <u>not</u> to use it!
 Don't use this with your speakers or headphones! The test signals are designed for electronic device testing only, and levels and frequencies of the test can be enough to cause damage to the equipment, or worse yet, your ears. Be warned!
 
 ## How to use it
