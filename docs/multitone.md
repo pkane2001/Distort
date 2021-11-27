@@ -7,7 +7,7 @@ summary: "Multitone v1.0 is the initial beta release of this software. Use at yo
 sidebar: mydoc_sidebar
 permalink: multitone.html
 folder: mydoc
-toc: false
+toc: true
 comments: true
 ---
 
