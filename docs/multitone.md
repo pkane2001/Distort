@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.6   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.7   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.6">
+<input type="hidden" id="version" name="version" value="1.0.7">
 
 
 
@@ -147,7 +147,11 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
-
+## Changes in 1.0.7
+* Added: Click or right-click on the FFT Window name in the main display brings up a choice of available windows
+* Added: Multitone maximum frequency setting is now also used for square an triangle wave generator, allowing for harmonics past Nyquist rate
+* Changed: Settings window various frequency rates and dither bits can now be entered by typing, allowing new values that are not currently supported
+* Fixed: in the Waveform plot the legend had the recorded and the test signals swapped
 
 ## Changes in 1.0.6
 * Added an additional pass of crest factor optimization to multitone generator
