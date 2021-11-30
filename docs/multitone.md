@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.7   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.8   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.7">
+<input type="hidden" id="version" name="version" value="1.0.8">
 
 
 
@@ -146,6 +146,14 @@ SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
 SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
+
+## Changes in 1.0.8
+* Changed: removed FFT windows that don't work well with short time-domain recordings (Kaiser, Taylor, Gauss, etc.)
+* Changed: simplified TD+N processing to produce more consistent results at different FFT sizes
+* Added: support for using external WAV files as the test signal
+* Added: setting to automatically resample external test WAV files to current output rate
+* Changed: rearranged UI to accommodate longer test tone name/description
+
 
 ## Changes in 1.0.7
 * Added: Click or right-click on the FFT Window name in the main display brings up a choice of available windows
