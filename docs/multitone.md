@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.10   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.11   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.9">
+<input type="hidden" id="version" name="version" value="1.0.11">
 
 
 
@@ -147,6 +147,14 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.11
+* Fixed: Harmonics amplitude is now displayed in dBr when that option is selected
+* Added: DC display to harmonics panel
+* Added: Accelerator keys to start measurement recording (Alt-R) and to stop (Alt-S)
+* Added: Channel selector (L, R, and L+R for output and L or R for input)
+* Added: Preview spectrogram as the measurement data is being collected
+* Added: Warm-up period setting (in seconds) to let components to get to full operating condition before measurement
+
 ## Changes in 1.0.10
 * Fixed: handled an error in sound driver that can occur when using Multitone on Linux + Wine
 
@@ -203,9 +211,6 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ## Changes in 1.0.1
 * Added option to invert L or R channel in settings
 * Fixed an issue with averages that caused lower overal signal level
-
-## Changes in 1.0.0
-* The initial public beta release of Multitone Analyzer
 
 ___
 {% include links.html %}
