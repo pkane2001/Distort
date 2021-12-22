@@ -152,7 +152,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Added: DC display to harmonics panel
 * Added: Accelerator keys to start measurement recording (Alt-R) and to stop (Alt-S)
 * Added: Channel selector (L, R, and L+R for output and L or R for input)
-* Added: Preview spectrogram as the measurement data is being collected
+* Added: Preview spectrum display as the measurement data is being collected
 * Added: Warm-up period setting (in seconds) to let components to get to full operating condition before measurement
 
 ## Changes in 1.0.10
