@@ -147,6 +147,9 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.13
+* Change: Multitone will no longer automatically set the system volume control to 100%. The user will need to make that change manually, if desired.
+
 ## Changes in 1.0.12
 * Emergency Fix (regression): Harmonic amplitudes are not scaled correctly
 
