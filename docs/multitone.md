@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.12   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.13   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.12">
+<input type="hidden" id="version" name="version" value="1.0.13">
 
 
 
@@ -150,10 +150,10 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ## Changes in 1.0.13
 * Change: Multitone will no longer automatically set the system volume control to 100%. The user will need to make that change manually, if desired.
 
-## Changes in 1.0.12
+**Changes in 1.0.12**
 * Emergency Fix (regression): Harmonic amplitudes are not scaled correctly
 
-## Changes in 1.0.11
+**Changes in 1.0.11**
 * Fixed: Harmonics amplitude is now displayed in dBr when that option is selected
 * Added: DC display to harmonics panel
 * Added: Accelerator keys to start measurement recording (Alt-R) and to stop (Alt-S)
@@ -161,13 +161,13 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Added: Preview spectrum display as the measurement data is being collected
 * Added: Warm-up period setting (in seconds) to let components to get to full operating condition before measurement
 
-## Changes in 1.0.10
+**Changes in 1.0.10**
 * Fixed: handled an error in sound driver that can occur when using Multitone on Linux + Wine
 
-## Changes in 1.0.9
+**Changes in 1.0.9**
 * Added: Level vs Distortion (IMD + TD+N) sweep measurement, display plot, and settings
  
-## Changes in 1.0.8
+**Changes in 1.0.8**
 * Changed: removed FFT windows that don't work well with short time-domain recordings (Kaiser, Taylor, Gauss, etc.)
 * Changed: simplified TD+N processing to produce more consistent results at different FFT sizes
 * Added: support for using external WAV files as the test signal
@@ -175,23 +175,23 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Changed: rearranged UI to accommodate longer test tone name/description
 
 
-## Changes in 1.0.7
+**Changes in 1.0.7**
 * Added: Click or right-click on the FFT Window name in the main display brings up a choice of available windows
 * Added: Multitone maximum frequency setting is now also used for square an triangle wave generator, allowing for harmonics past Nyquist rate
 * Changed: Settings window various frequency rates and dither bits can now be entered by typing, allowing new values that are not currently supported
 * Fixed: in the Waveform plot the legend had the recorded and the test signals swapped
 
-## Changes in 1.0.6
+**Changes in 1.0.6**
 * Added an additional pass of crest factor optimization to multitone generator
 * Crest factor is now displayed for all test waveforms
 
-## Changes in 1.0.5
+**Changes in 1.0.5**
 * Added support for saving/removing custom test signals
 * Added additional metrics (frequency, THD, SNR, and ENOB) to a single-tone test result
 * Added current FFT window on the main display above the FFT size
 * Changed "Dirichlet" FFT window name to "Dirichlet (Rect)"
 
-## Changes in 1.0.4
+**Changes in 1.0.4**
 * Added support for using the same ASIO driver for input and output
 * Added Harmonics display to the spectrum plot when testing with a single frequency
 * Added support for TIM-type test signals consisting of a combination of a square and sine waves
@@ -199,24 +199,13 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Some minor clean-up of functionality and display
 
 
-## Changes in 1.0.3
+**Changes in 1.0.3**
 * Added Measurement History window to compare results
 * Added dither test signal option to settings
 * Added clear plots button
 * Changed multi-tone generation for better separation in lower frequencies
 * Fix an error when enumerating audio devices that don't report their settings
 
-
-## Changes in 1.0.2
-* Fixed occasional crash with a single ASIO device
-* Added option to turn on or off distortions and signal in spectrum and wave plots
-* Added option to display in auto-dBr
-* Added auto-update option when new versions of Multitone are released
-* Added Multitone 32 (AP) test signal to reproduce AudioPrecision 32 tone test
-
-## Changes in 1.0.1
-* Added option to invert L or R channel in settings
-* Fixed an issue with averages that caused lower overal signal level
 
 ___
 {% include links.html %}
