@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.14   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.15   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.14">
+<input type="hidden" id="version" name="version" value="1.0.15">
 
 
 
@@ -147,6 +147,10 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+
+## Changes in 1.0.15
+* Added: Copy current plot to the clipboard with scaling factor configurable in settings
+
 ## Changes in 1.0.14
 * Added: J-Test 24 and J-Test 16 test signals for jitter measurements
 * Added: Option to change frequency axis display between log and linear
@@ -154,9 +158,8 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Added: Automatic numbering of harmonics in the frequency plot
 * Changed: IMD calculations improved accuracy and switched to using more common calculations (SMPTE and CCIF)
 * Changed: Level/IMD sweep plot X-axis will now show test signal amplitude in dBFS (previously showed measured signal)
-* 
 
-## Changes in 1.0.13
+**Changes in 1.0.13**
 * Change: Multitone will no longer automatically set the system volume control to 100%. The user will need to make that change manually, if desired.
 
 **Changes in 1.0.12**
