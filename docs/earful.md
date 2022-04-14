@@ -25,6 +25,7 @@ comments: true
 ## You may also be interested in these:
 * <a href="https://deltaw.org" target="_blank">DeltaWave</a> - Audio null analyzer and audibility tester
 * <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio
+* <a href="https://distortaudio.org/multitone.html">Multitone Analyzer </a> - Measure an audio device performance in loopback using any number of tones, from 1 to thousands<br>
 <br>
 
 

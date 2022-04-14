@@ -25,6 +25,7 @@ Support and feedback for PKHarmonic available at this <a href="https://www.audio
 * <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio
 <br>
 * <a href="https://distortaudio.org/earful.html">Earful </a> - An audiophile Hearing Test 
+* <a href="https://distortaudio.org/multitone.html">Multitone Analyzer </a> - Measure an audio device performance in loopback using any number of tones, from 1 to thousands<br>
 
 <br>
 Use the PayPal Donate button below to help me develop this and other Audio software! Leave me a note with payment to indicate which software you're using, and anything else that you'd like to see written:
