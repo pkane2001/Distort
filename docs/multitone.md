@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: April 13, 2022
+last_updated: June 5, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.15   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.16   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.15">
+<input type="hidden" id="version" name="version" value="1.0.16">
 
 
 
@@ -148,10 +148,23 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
 
-## Changes in 1.0.15
+## Changes in 1.0.16
+* Added: Amplitude (in-coherent), Coherent, and Hybrid averaging and related computations
+* Added: Average overlap % selector
+* Added: Repeat option to continually repeat the selected measurement
+* Added: History color and label editing capability, delete selected (or all) history entries
+* Added: Kaiser 6, 12, and Chebyshev 200 FFT Windows
+* Added: Option to save generated test signal to a 64-bit WAV file
+* Added: Noise measurement to harmonic distortion panel
+* Changed: External test source fundamental tone extraction
+* Changed: IMD computation to include SMPTE/DIN/CCIF
+* Changed: Harmonic amplitudes are now always displayed relative to the fundamental, regardless of dBr setting
+* Fixed: ASIO input selector for channels might cause a crash with the Right channel selected
+
+**Changes in 1.0.15**
 * Added: Copy current plot to the clipboard with scaling factor configurable in settings
 
-## Changes in 1.0.14
+**Changes in 1.0.14**
 * Added: J-Test 24 and J-Test 16 test signals for jitter measurements
 * Added: Option to change frequency axis display between log and linear
 * Added: Option to select how many harmonic components to show on the display
@@ -209,14 +222,6 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Added support for TIM-type test signals consisting of a combination of a square and sine waves
 * Fixed history plots not displaying properly when only a single test tone was recorded
 * Some minor clean-up of functionality and display
-
-
-**Changes in 1.0.3**
-* Added Measurement History window to compare results
-* Added dither test signal option to settings
-* Added clear plots button
-* Changed multi-tone generation for better separation in lower frequencies
-* Fix an error when enumerating audio devices that don't report their settings
 
 
 ___
