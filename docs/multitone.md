@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.16   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.17   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.16">
+<input type="hidden" id="version" name="version" value="1.0.17">
 
 
 
@@ -146,9 +146,13 @@ SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
 SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
+## Changes in 1.0.17
+* Added: AES17 spec notch filter for THD+N measurements
+* Added: Support for REW-style input device calibration file
+* Changed: display running average spectrum while collecting data
+* Reverted: ASIO channel management change in .16 caused ASIO recording to fail for some users
 
-
-## Changes in 1.0.16
+**Changes in 1.0.16**
 * Added: Amplitude (in-coherent), Coherent, and Hybrid averaging and related computations
 * Added: Average overlap % selector
 * Added: Repeat option to continually repeat the selected measurement
