@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: June 5, 2022
+last_updated: July 15, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.17   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.18   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.17">
+<input type="hidden" id="version" name="version" value="1.0.18">
 
 
 
@@ -146,7 +146,13 @@ SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
 SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
-## Changes in 1.0.17
+
+## Changes in 1.0.18
+* Fixed: Average overlap setting used US-style decimal point causing errors in regions where decimal comma is used
+* Fixed: Occasional hangs when using certain ASIO drivers
+* Changed: When using averaging, the results are no longer recomputed when capture is completed, saving time
+
+**Changes in 1.0.17**
 * Added: AES17 spec notch filter for THD+N measurements
 * Added: Support for REW-style input device calibration file
 * Changed: display running average spectrum while collecting data
