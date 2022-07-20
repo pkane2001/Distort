@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 15, 2022
+last_updated: July 19, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.19   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.22   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.19">
+<input type="hidden" id="version" name="version" value="1.0.22">
 
 
 
@@ -146,7 +146,14 @@ SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
 SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
-## Changes in 1.0.19
+
+## Changes in 1.0.22
+* Change: better detect the start of the playback waveform by measuring noise floor
+* Add: option to turn off audio new/removed driver detection to aleviate too many notifications caused by some drivers
+* Fix: THD is now calculated within the selected frequency range (was over the whole bandwidth)
+* Change: optimizations to allow for smaller ASIO buffer sizes, faster sampling rates, and better performance on slower computers
+
+**Changes in 1.0.19**
 * Fixed: occasional stutter at the end of audio capture
 * Fixed: waveform tab is now showing the correct captured waveform (was broken in .17)
 * Fixed: selected audio driver changing when sample rate is changed by ASIO driver or some other changes occur
