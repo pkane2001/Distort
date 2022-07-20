@@ -149,7 +149,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 
 ## Changes in 1.0.22
 * Change: better detect the start of the playback waveform by measuring noise floor
-* Add: option to turn off audio new/removed driver detection to aleviate too many notifications caused by some drivers
+* Add: option to turn off audio new/removed driver detection to alleviate too many notifications caused by some drivers
 * Fix: THD is now calculated within the selected frequency range (was over the whole bandwidth)
 * Change: optimizations to allow for smaller ASIO buffer sizes, faster sampling rates, and better performance on slower computers
 
