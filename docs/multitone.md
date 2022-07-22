@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.22   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.24   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.22">
+<input type="hidden" id="version" name="version" value="1.0.24>
 
 
 
@@ -147,7 +147,11 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
-## Changes in 1.0.22
+## Changes in 1.0.24
+* Fix & Change: WASAPI Shared mode setting renamed to WASAPI Exclusive. The meaning was previously swapped
+* Fix: Some ASIO drivers couldn't be mixed with WASAPI or other ASIO drivers because each driver tried to open channels for input and output
+  
+**Changes in 1.0.22**
 * Change: better detect the start of the playback waveform by measuring noise floor
 * Add: option to turn off audio new/removed driver detection to alleviate too many notifications caused by some drivers
 * Fix: THD is now calculated within the selected frequency range (was over the whole bandwidth)
@@ -219,30 +223,6 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Added: support for using external WAV files as the test signal
 * Added: setting to automatically resample external test WAV files to current output rate
 * Changed: rearranged UI to accommodate longer test tone name/description
-
-
-**Changes in 1.0.7**
-* Added: Click or right-click on the FFT Window name in the main display brings up a choice of available windows
-* Added: Multitone maximum frequency setting is now also used for square an triangle wave generator, allowing for harmonics past Nyquist rate
-* Changed: Settings window various frequency rates and dither bits can now be entered by typing, allowing new values that are not currently supported
-* Fixed: in the Waveform plot the legend had the recorded and the test signals swapped
-
-**Changes in 1.0.6**
-* Added an additional pass of crest factor optimization to multitone generator
-* Crest factor is now displayed for all test waveforms
-
-**Changes in 1.0.5**
-* Added support for saving/removing custom test signals
-* Added additional metrics (frequency, THD, SNR, and ENOB) to a single-tone test result
-* Added current FFT window on the main display above the FFT size
-* Changed "Dirichlet" FFT window name to "Dirichlet (Rect)"
-
-**Changes in 1.0.4**
-* Added support for using the same ASIO driver for input and output
-* Added Harmonics display to the spectrum plot when testing with a single frequency
-* Added support for TIM-type test signals consisting of a combination of a square and sine waves
-* Fixed history plots not displaying properly when only a single test tone was recorded
-* Some minor clean-up of functionality and display
 
 
 ___
