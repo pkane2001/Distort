@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 23, 2022
+last_updated: July 24, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.25   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.26   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.25>
+<input type="hidden" id="version" name="version" value="1.0.26>
 
 
 
@@ -147,10 +147,13 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.26
+* Fix: Direct Sound driver selector broken in recent updates
+
 ## Changes in 1.0.25
 * Fix: WASAPI Exclusive mode now works with best available bit setting (previously only 16 bits)
 
-## Changes in 1.0.24
+**Changes in 1.0.24**
 * Fix & Change: WASAPI Shared mode setting renamed to WASAPI Exclusive. The meaning was previously swapped
 * Fix: Some ASIO drivers couldn't be mixed with WASAPI or other ASIO drivers because each driver tried to open channels for input and output
   
