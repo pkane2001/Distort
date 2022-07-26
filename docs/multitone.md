@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.26   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.27   <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.26>
+<input type="hidden" id="version" name="version" value="1.0.27>
 
 
 
@@ -147,10 +147,21 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.27
+* Add: Support for different sampling rates for record and play devices
+* Add: ASIO sample rates can now be specified separately, one for intput, the other for output
+* Add: WASAPI configuration/control panel for in and out devices
+* Change: THD+N is now computed over the selected frequency range (previously over the entire bandwidth)
+* Fix: Preview window occasional glitch reduced
+* Add: High/low contrast display option/color scheme selector
+* Change: Red-X on the main window will now clear collected averages and continue measurement for any left-over averages any time its pressed during measurement
+* Change: ASIO devices that are not connected to the PC will no longer be listed in the device list
+* Change: Dither can now be specified in fractional bits (as in 22.5)
+
 ## Changes in 1.0.26
 * Fix: Direct Sound driver selector broken in recent updates
 
-## Changes in 1.0.25
+**Changes in 1.0.25**
 * Fix: WASAPI Exclusive mode now works with best available bit setting (previously only 16 bits)
 
 **Changes in 1.0.24**
