@@ -147,7 +147,7 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 ## Changes in 1.0.28
-* Fix: preview window now shows the full audio spectrum from 20Hz to 20kHz
+* Fix: preview window now shows the full audio spectrum from 20Hz to 24kHz
 * Fix: occasional OxyPlot exception message displayed in the plot area
 * Fix: AES17 notch applied incorrectly on dual-tone test signals
 
