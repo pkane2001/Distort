@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.27  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.28  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.27"/>
+<input type="hidden" id="version" name="version" value="1.0.28"/>
 
 
 
@@ -146,6 +146,10 @@ SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
 SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
+## Changes in 1.0.28
+* Fix: preview window now shows the full audio spectrum from 20Hz to 20kHz
+* Fix: occasional OxyPlot exception message displayed in the plot area
+* Fix: AES17 notch applied incorrectly on dual-tone test signals
 
 ## Changes in 1.0.27
 * Add: Support for different sampling rates for record and play devices
