@@ -149,7 +149,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 
 ## Changes in 1.0.27
 * Add: Support for different sampling rates for record and play devices
-* Add: ASIO sample rates can now be specified separately, one for intput, the other for output
+* Add: ASIO sample rates can now be specified separately, one for input, the other for output
 * Add: WASAPI configuration/control panel for in and out devices
 * Change: THD+N is now computed over the selected frequency range (previously over the entire bandwidth)
 * Fix: Preview window occasional glitch reduced
