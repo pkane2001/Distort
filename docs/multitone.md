@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 24, 2022
+last_updated: July 30, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.28  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.29  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.28"/>
+<input type="hidden" id="version" name="version" value="1.0.29"/>
 
 
 
@@ -146,7 +146,26 @@ SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
 SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
-## Changes in 1.0.28
+
+## Changes in 1.0.29
+* Add: display RMS and dBA value display when not using discrete tones as the test signal
+* Add: white and pink noise to test signal list
+* Add: restore main Multitone window position and size on restart
+* Change: some minor UI changes (labels, tooltips, fonts, etc.)
+* Change: allow test signal generation to be interrupted by stop button
+* Change: don't regenerate the same test signal if no parameters changed between test runs
+* Change: reduce memory pressure by not making copies of the original test waveform
+* Change: move frequency response curve to be around 0dB in the plot
+* Change: clear zoom levels when switching FFT sizes to allow the plot to auto-scale
+* Change: the state of Show 1 and Show 2 checks automatically apply for future measurements
+* Change: 'Detect driver changes' will now also disable testing of connected ASIO driver on start-up when not checked
+* Change: frequency response plot stays in focus when running new measurements (switched to spectrum plot before)
+* Fix: record second channel (R) with ASIO devices (reported issue with MADIFace ASIO driver)
+* Fix: selected history items now remain checked when closing/re-opening history window
+* Fix: history items show fully averaged result (previously only first FFT-sized average was displayed)
+* Fix: allow smaller than 64k FFT sizes to be entered for measurements by typing them in
+
+**Changes in 1.0.28**
 * Fix: preview window now shows the full audio spectrum from 20Hz to 24kHz
 * Fix: occasional OxyPlot exception message displayed in the plot area
 * Fix: AES17 notch applied incorrectly on dual-tone test signals
@@ -217,33 +236,6 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Added: Automatic numbering of harmonics in the frequency plot
 * Changed: IMD calculations improved accuracy and switched to using more common calculations (SMPTE and CCIF)
 * Changed: Level/IMD sweep plot X-axis will now show test signal amplitude in dBFS (previously showed measured signal)
-
-**Changes in 1.0.13**
-* Change: Multitone will no longer automatically set the system volume control to 100%. The user will need to make that change manually, if desired.
-
-**Changes in 1.0.12**
-* Emergency Fix (regression): Harmonic amplitudes are not scaled correctly
-
-**Changes in 1.0.11**
-* Fixed: Harmonics amplitude is now displayed in dBr when that option is selected
-* Added: DC display to harmonics panel
-* Added: Accelerator keys to start measurement recording (Alt-R) and to stop (Alt-S)
-* Added: Channel selector (L, R, and L+R for output and L or R for input)
-* Added: Preview spectrum display as the measurement data is being collected
-* Added: Warm-up period setting (in seconds) to let components to get to full operating condition before measurement
-
-**Changes in 1.0.10**
-* Fixed: handled an error in sound driver that can occur when using Multitone on Linux + Wine
-
-**Changes in 1.0.9**
-* Added: Level vs Distortion (IMD + TD+N) sweep measurement, display plot, and settings
- 
-**Changes in 1.0.8**
-* Changed: removed FFT windows that don't work well with short time-domain recordings (Kaiser, Taylor, Gauss, etc.)
-* Changed: simplified TD+N processing to produce more consistent results at different FFT sizes
-* Added: support for using external WAV files as the test signal
-* Added: setting to automatically resample external test WAV files to current output rate
-* Changed: rearranged UI to accommodate longer test tone name/description
 
 
 ___
