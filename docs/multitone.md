@@ -147,6 +147,11 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.30
+* Fix: regression from .29 -- play gain is applied twice 
+* Level sweep isn't displaying results
+
+
 ## Changes in 1.0.29
 * Add: display RMS and dBA value display when not using discrete tones as the test signal
 * Add: white and pink noise to test signal list
