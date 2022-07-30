@@ -170,7 +170,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Fix: occasional OxyPlot exception message displayed in the plot area
 * Fix: AES17 notch applied incorrectly on dual-tone test signals
 
-## Changes in 1.0.27
+**Changes in 1.0.27**
 * Add: Support for different sampling rates for record and play devices
 * Add: ASIO sample rates can now be specified separately, one for input, the other for output
 * Add: WASAPI configuration/control panel for in and out devices
@@ -181,7 +181,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Change: ASIO devices that are not connected to the PC will no longer be listed in the device list
 * Change: Dither can now be specified in fractional bits (as in 22.5)
 
-## Changes in 1.0.26
+**Changes in 1.0.26**
 * Fix: Direct Sound driver selector broken in recent updates
 
 **Changes in 1.0.25**
