@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.30  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.31  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.30"/>
+<input type="hidden" id="version" name="version" value="1.0.31"/>
 
 
 
@@ -146,8 +146,10 @@ SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
 SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
+## Changes in 1.0.31
+** Fix: hang or crash with certain ASIO drivers when ending recording or closing Multitone
 
-## Changes in 1.0.30
+**Changes in 1.0.30**
 * Fix: regression from .29 -- play gain is applied twice 
 * Level sweep isn't displaying results
 
