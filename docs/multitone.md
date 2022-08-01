@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 30, 2022
+last_updated: August 1, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.31  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.32  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.31"/>
+<input type="hidden" id="version" name="version" value="1.0.32"/>
 
 
 
@@ -146,6 +146,24 @@ SQT_OneSqWave_and_3_sines sq:100/13k/13.1k/15k
 SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
+
+
+## Changes in 1.0.32
+* Add: Spectrum and IMD Sweep charts now can be configured in the main window, using a property sheet
+* Add: Marker line can be added to the spectrum line to indicate a specific frequency
+* Add: Spectrum and Sweep chart titles can be customized
+* Add: X and Y axes labels on Spectrum and IMD chart
+* Add: Spectrum and Sweep chart font size can be adjusted
+* Add: Image copy to clipboard, text rearranged to not cover up the plot area, additional values added
+* Change: Sweep cylce starts with 1 instead of 0
+* Change: averages are now computed on all available data instead of doing one at a time (faster, all averages always complete)
+* Change: IMD Sweep window now automatically scales with data, individual measurements are indicated on the chart
+* Change: in low-contrast display, plot background is now white, not gray. Other colors adjusted for better visibility
+* Fix: IMD Sweep X-axis didn't show fractions of dB when zoomed-in
+* Fix: average overlap in settings didn't work with decimal comma separator
+* Fix: Input WASAPI driver wasn't always correctly restored on start
+
+
 ## Changes in 1.0.31
 ** Fix: hang or crash with certain ASIO drivers when ending recording or closing Multitone
 
