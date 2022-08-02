@@ -23,7 +23,7 @@ comments: true
 ## Download Multitone
 <a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.32  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.31"/>
+<input type="hidden" id="version" name="version" value="1.0.32"/>
 
 
 
