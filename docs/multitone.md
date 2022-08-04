@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: August 1, 2022
+last_updated: August 4, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.32  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.34  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.32"/>
+<input type="hidden" id="version" name="version" value="1.0.34"/>
 
 
 
@@ -147,6 +147,18 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.34
+* Fix: Waveform plot is now displayed (was missing in .32)
+* Fix: Remove unnecessary units next to each axis label (dB, etc.)
+* Fix: re-enable processing External data
+* Change: adjust font sizes (title, and measurements)
+* Add: axes labels to all charts
+* Fix: dither applied correctly for different bit-sizes
+* Fix: processing THD and harmonics detection in the presence of large noise in LF
+* Fix: restoring hybrid/coherently averaged data from history displayed noisy data
+* Add: selector save generated test files in 32- and 64-bit floating point
+* Add: automatic update of displayed plots when changing chart properties with no need to re-capture data
+* Change: marker setting now allows for multiple markers to be added to the same plot
 
 ## Changes in 1.0.32
 * Add: Spectrum and IMD Sweep charts now can be configured in the main window, using a property sheet
