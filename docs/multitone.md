@@ -147,6 +147,15 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.35
+* Fix: History color picker causing a hang
+* Add: setting to show/hide THD display panel
+* Add: setting to index all history plots at the same frequency
+* Add: Periodic White and Pink noise test signals tied to the current FFT frequency
+* Add: Automatic looping of external files when used as a test signal
+* Fix: add back the value of 1 to the clipboard scale setting in the property list
+
+
 ## Changes in 1.0.34
 * Fix: Waveform plot is now displayed (was missing in .32)
 * Fix: Remove unnecessary units next to each axis label (dB, etc.)
@@ -176,7 +185,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Fix: Input WASAPI driver wasn't always correctly restored on start
 
 
-## Changes in 1.0.31
+**Changes in 1.0.31**
 ** Fix: hang or crash with certain ASIO drivers when ending recording or closing Multitone
 
 **Changes in 1.0.30**
@@ -184,7 +193,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Level sweep isn't displaying results
 
 
-## Changes in 1.0.29
+**Changes in 1.0.29**
 * Add: display RMS and dBA value display when not using discrete tones as the test signal
 * Add: white and pink noise to test signal list
 * Add: restore main Multitone window position and size on restart

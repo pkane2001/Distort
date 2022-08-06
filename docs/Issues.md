@@ -1,5 +1,21 @@
 Issues/enhancements
 
+
+1.0.34
+* History Color selector causes a hang or crash - DONE
+* Hybrid/Coherent averages are not restored exactly from history, small mismatches with original data
+* When deleting entry from history it remains on the plot
+* Show 1 and 2 unchecked, checking 2 doesn't show until 1 is also shown
+* 
+* Enhancements
+  * Looping short test files - DONE
+  * Add periodic white/pink noise - DONE
+  * Select/unselect all in history - NOT DOING
+  * Add option to show/hide measurements on the plot - DONE
+  * 
+
+
+
 1.0.31 - July 30-31, 2022
 * DONE Sweep window auto-scaling and min/max range in X axis (+/-1 db extra) and Y axis (-120db limit)
 * DONE (PK) Fix sweep X-axis labels to show decimals when zooming in
