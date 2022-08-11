@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: August 4, 2022
+last_updated: August 11, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.35  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.36  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.35"/>
+<input type="hidden" id="version" name="version" value="1.0.36"/>
 
 
 
@@ -147,6 +147,15 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.36
+* Fix: when using file as source, changin file didn't update the test signal due to caching
+* Fix: apply dither to source file if play gain setting is adjusted and dither option is enabled
+* Fix: adjust 24 bit scaling to not exceed full scale when converting to/from floating point
+* Fix: save window position and other settings when changing some parameters on the main screen
+* Add: frequency vs TD+N and IMD sweep
+* Add: option to sweep one or all frequencies
+
+
 ## Changes in 1.0.35
 * Fix: History color picker causing a hang
 * Add: setting to show/hide THD display panel
@@ -169,7 +178,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Add: automatic update of displayed plots when changing chart properties with no need to re-capture data
 * Change: marker setting now allows for multiple markers to be added to the same plot
 
-## Changes in 1.0.32
+**Changes in 1.0.32**
 * Add: Spectrum and IMD Sweep charts now can be configured in the main window, using a property sheet
 * Add: Marker line can be added to the spectrum line to indicate a specific frequency
 * Add: Spectrum and Sweep chart titles can be customized
