@@ -148,7 +148,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
 ## Changes in 1.0.36
-* Fix: when using file as source, changin file didn't update the test signal due to caching
+* Fix: when using file as source, changing file didn't update the test signal due to caching
 * Fix: apply dither to source file if play gain setting is adjusted and dither option is enabled
 * Fix: adjust 24 bit scaling to not exceed full scale when converting to/from floating point
 * Fix: save window position and other settings when changing some parameters on the main screen
