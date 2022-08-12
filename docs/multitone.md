@@ -147,6 +147,9 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.37
+* Fix: regression in .37 - play gain applied twice
+* 
 ## Changes in 1.0.36
 * Fix: when using file as source, changing file didn't update the test signal due to caching
 * Fix: apply dither to source file if play gain setting is adjusted and dither option is enabled
