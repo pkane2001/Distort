@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: August 11, 2022
+last_updated: August 17, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.38  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.41  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.38"/>
+<input type="hidden" id="version" name="version" value="1.0.41"/>
 
 
 
@@ -147,6 +147,14 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.41
+* Add: support for additional channels with ASIO and WASAPI multi-channel drivers
+* Add: sawtooth and reverse-sawtooth test signals
+* Add: cool-down setting for sweeps and repeated tests
+* Add: property settings panels for Waveform and Frequency response plots
+* Fix: low-level (LSB) errors with ASIO and WASAPI drivers due to 24-bit truncation in 32-bit floating point
+* Fix: scaling of the waveform plot when different sampling rates are used for playback and recording
+
 ## Changes in 1.0.38
 * Fix: channel selector not always restored correctly on start-up
 * Fix: frequency sweep shows wrong level on the status bar and sweep output level changes from the selected play gain during the sweep
@@ -164,7 +172,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Add: option to sweep one or all frequencies
 
 
-## Changes in 1.0.35
+**Changes in 1.0.35**
 * Fix: History color picker causing a hang
 * Add: setting to show/hide THD display panel
 * Add: setting to index all history plots at the same frequency
@@ -173,7 +181,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Fix: add back the value of 1 to the clipboard scale setting in the property list
 
 
-## Changes in 1.0.34
+**Changes in 1.0.34**
 * Fix: Waveform plot is now displayed (was missing in .32)
 * Fix: Remove unnecessary units next to each axis label (dB, etc.)
 * Fix: re-enable processing External data
