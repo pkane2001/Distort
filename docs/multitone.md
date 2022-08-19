@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.41  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.42  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.41"/>
+<input type="hidden" id="version" name="version" value="1.0.42"/>
 
 
 
@@ -147,6 +147,19 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.42
+* Add: Results window display
+* Add: all settings load and save options
+* Add: Index to (dB) property
+* Add: Index and marker settings to Frequency Response and Frequency Sweep plots
+* Add: Refresh all plots button
+* Add: SFDR measurement to one-tone test signal results
+* Add: date/time column to history, separate from label
+* Change: history selection behavior (check mark always adds to the plot, double-click causes recalculation of all results for that entry)
+* Change: Index to and Index at settings apply to all spectrum plots and measurements, not just history
+* Fix: Floating point files saved to disk now have the correct IEEE format (3) setting
+* Fix: axes labels sometimes could be displayed multiple times, overlapping, when changing settings
+
 ## Changes in 1.0.41
 * Add: support for additional channels with ASIO and WASAPI multi-channel drivers
 * Add: sawtooth and reverse-sawtooth test signals
@@ -155,15 +168,15 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Fix: low-level (LSB) errors with ASIO and WASAPI drivers due to 24-bit truncation in 32-bit floating point
 * Fix: scaling of the waveform plot when different sampling rates are used for playback and recording
 
-## Changes in 1.0.38
+**Changes in 1.0.38**
 * Fix: channel selector not always restored correctly on start-up
 * Fix: frequency sweep shows wrong level on the status bar and sweep output level changes from the selected play gain during the sweep
 
 
-## Changes in 1.0.37
+**Changes in 1.0.37**
 * Fix: regression in .37 - play gain applied twice
 * 
-## Changes in 1.0.36
+**Changes in 1.0.36**
 * Fix: when using file as source, changing file didn't update the test signal due to caching
 * Fix: apply dither to source file if play gain setting is adjusted and dither option is enabled
 * Fix: adjust 24 bit scaling to not exceed full scale when converting to/from floating point
