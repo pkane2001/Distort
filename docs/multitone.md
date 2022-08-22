@@ -152,7 +152,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Add: Measurement value selector in Results display to customize the reported values
 * Add: History measurement/comparison selector in Results display to compare the current result to any number of previous ones, side by side
 * Add: Fundamental amplitude result
-* AdD: SFDR measurement frequency
+* Add: SFDR measurement frequency
 
 
 ## Changes in 1.0.42
