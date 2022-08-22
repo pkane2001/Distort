@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.42  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.43  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.42"/>
+<input type="hidden" id="version" name="version" value="1.0.43"/>
 
 
 
@@ -147,6 +147,14 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.43
+* Add: Measurement 1 and 2 selector for sweeps. Allows any combination of two measurements to be plotted against each other
+* Add: Measurement value selector in Results display to customize the reported values
+* Add: History measurement/comparison selector in Results display to compare the current result to any number of previous ones, side by side
+* Add: Fundamental amplitude result
+* AdD: SFDR measurement frequency
+
+
 ## Changes in 1.0.42
 * Add: Results window display
 * Add: all settings load and save options
@@ -160,7 +168,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Fix: Floating point files saved to disk now have the correct IEEE format (3) setting
 * Fix: axes labels sometimes could be displayed multiple times, overlapping, when changing settings
 
-## Changes in 1.0.41
+**Changes in 1.0.41**
 * Add: support for additional channels with ASIO and WASAPI multi-channel drivers
 * Add: sawtooth and reverse-sawtooth test signals
 * Add: cool-down setting for sweeps and repeated tests
