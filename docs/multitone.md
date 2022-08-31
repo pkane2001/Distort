@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.43  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.45  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.43"/>
+<input type="hidden" id="version" name="version" value="1.0.45"/>
 
 
 
@@ -147,6 +147,17 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.45
+* Add: Maximum number of history entries setting
+* Add: Export/Import history data in *.mth file
+* Fix: SNR was displayed with - sign
+* Fix: SNR was computed incorrectly for different frequency ranges
+* Fix: data not removed from plot when corresponding history entry is deleted
+* Fix: error when clicking on Selection header when nothing is selected in history
+* Fix: latest measurement selected from history is wrong color and missing series label
+* Fix: new measurements don't appear in comparison results when selected
+
+
 ## Changes in 1.0.43
 * Add: Measurement 1 and 2 selector for sweeps. Allows any combination of two measurements to be plotted against each other
 * Add: Measurement value selector in Results display to customize the reported values
@@ -155,7 +166,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Add: SFDR measurement frequency
 
 
-## Changes in 1.0.42
+**Changes in 1.0.42**
 * Add: Results window display
 * Add: all settings load and save options
 * Add: Index to (dB) property
