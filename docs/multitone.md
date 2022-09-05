@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.45  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.47  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.45"/>
+<input type="hidden" id="version" name="version" value="1.0.47"/>
 
 
 
@@ -147,6 +147,14 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Changes in 1.0.47
+* Add: capture, measure and compare any two channels from the ADC
+* Add: frequency and level sweeps comparing two capture channels
+* Add: results window can display results for both channels, or a single channel can be selected for comparison
+* Change: ASIO buffer management to speed up data processing. Smaller ASIO buffer size is now supported.
+* Fix: wrong result when applying calibration file
+
+
 ## Changes in 1.0.45
 * Add: Maximum number of history entries setting
 * Add: Export/Import history data in *.mth file
@@ -158,7 +166,7 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 * Fix: new measurements don't appear in comparison results when selected
 
 
-## Changes in 1.0.43
+**Changes in 1.0.43**
 * Add: Measurement 1 and 2 selector for sweeps. Allows any combination of two measurements to be plotted against each other
 * Add: Measurement value selector in Results display to customize the reported values
 * Add: History measurement/comparison selector in Results display to compare the current result to any number of previous ones, side by side
