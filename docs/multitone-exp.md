@@ -30,6 +30,8 @@ Formatting can be applied to displayed variables. Numeric variables are displaye
 
 Here's the list of variables available for display or to be used in a calculation. All numeric variables that can be, are expressed in dB. You can convert them to other desired units by adding a calcluation.
 
+<br>
+
 
 <figure class="wp-block-table"><table><tbody><tr><th>Variable</th><th>Description</th></tr><tr><td><strong>level</strong></td><td><code>Peak level of the recorded signal (dB)</code></td></tr>
 
@@ -81,7 +83,7 @@ Here's the list of variables available for display or to be used in a calculatio
 <br><br>
 
 
-<h2 id="op-constants-funcs">2. Supported operators, constants and functions</h2>
+<h2 id="op-constants-funcs">Supported operators, constants and functions</h2>
 
 
 
