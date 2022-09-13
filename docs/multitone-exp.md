@@ -15,24 +15,24 @@ comments: true
 
 Variables can be inserted into any expression at any point by enclosing them in { } characters
 
-<br>Example 1:<br><code><strong>Sample Rate is <u>{recordSampleRate}</u> Hz</strong></code> <br>
-<br>Example 2:<br><code><strong>Sample Rate is <u>{recordSampleRate}</u> Hz and <u>{playSampleRate}</u> Hz</strong></code>
+<br>Example 1: <code><strong>Sample Rate is <u>{recordSampleRate}</u> Hz</strong></code> <br>
+<br>Example 2: <code><strong>Sample Rate is <u>{recordSampleRate}</u> Hz and <u>{playSampleRate}</u> Hz</strong></code>
 <br><br>
 
 Multiple variables can be inserted into the same result. If two channel measurements are made, all variables can be used with number 2 added at the end to refer to the same variable results in the second channel.
 
-<br>Example:<br><code><strong>THD in {channel2} is {thd2}dB</strong></code> <br>
+<br>Example: <code><strong>THD in {channel2} is {thd2}dB</strong></code> <br>
 
 Calculations can be used combining multiple variables (see Supported Operators and Math functions below).
 
-<br>Example:<br><code><strong>THD % in {channel} is {(10^(thd/20))*100:}%</strong></code> <br>
+<br>Example: <code><strong>THD measured in {channel} is {(10^(thd/20))*100:G}%</strong></code> <br>
 
 <br>
 Formatting can be applied to displayed variables by putting optional ':' character after the variable or expression, and then adding the desired format.
 
 <br> 
 
-Numeric variables are displayed, by default, with all whole digits, and one decimal fraction. To add additional decimal points, use a format of this form:   {thd:0.0000000} for example. To display the number in scientific notation, use {tdn:G}. Many other formatting options are available.
+Numeric variables are displayed, by default, with all whole digits, and one decimal fraction. To add additional decimal points, use a format of this form:   <code>{thd:0.0000000}</code> for example. To display the number in scientific notation, use <code>{tdn:G}</code>. Many other formatting options are available.
 <br>
 
 <br>
