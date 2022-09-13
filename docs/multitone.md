@@ -147,6 +147,12 @@ SQT_Test3 sq:1000Hz/13kHz 4:1
 SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 ```
 
+## Configuring variable expressions
+Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
+
+<br>
+
+
 ## Changes in 1.0.48
 * Add: new test signal Silence (can be dithered)
 * Add: setting to position plot legend in any of the four corners
