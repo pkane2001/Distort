@@ -1,8 +1,8 @@
 ---
-title: Multitone - Loopback Analyzer for Audio
+title: Multitone Variable Expression support
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: August 17, 2022
+last_updated: Sept 12, 2022
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone-exp.html
@@ -10,7 +10,7 @@ folder: mydoc
 comments: true
 ---
 <div>
-<h1>Multitone Variable Expression support</h1><br>
+
 <h2 id="op-variables">Supported variables</h2>
 
 Variables can be inserted into any expression at any point by enclosing them in { } characters
