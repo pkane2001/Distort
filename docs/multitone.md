@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.48  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.49  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.48"/>
+<input type="hidden" id="version" name="version" value="1.0.49"/>
 
 
 
@@ -151,6 +151,17 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+
+## Changes in 1.0.49
+* Add: Amplitude Spectrum Density display option (scales spectrum display per sqrt(Hz)) to remove the effect of FFT gain on noise floor
+* Add: ability to create new, custom display variables in Results window
+* Fix: level meter fluctuates on steady tone below 5Hz
+* Fix: short frequency range multitone test signal can cause a crash in generate function
+* Fix: hang if freuency sweep starts with 0Hz
+* Change: remove detection of noisy measurements in sweeps
+
+
 
 
 ## Changes in 1.0.48
