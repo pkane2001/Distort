@@ -158,7 +158,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: ability to create new, custom display variables in Results window
 * Fix: level meter fluctuates on steady tone below 5Hz
 * Fix: short frequency range multitone test signal can cause a crash in generate function
-* Fix: hang if freuency sweep starts with 0Hz
+* Fix: hang if frequency sweep starts with 0Hz
 * Change: remove detection of noisy measurements in sweeps
 
 
