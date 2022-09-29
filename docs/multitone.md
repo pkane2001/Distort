@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.49  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.50  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.49"/>
+<input type="hidden" id="version" name="version" value="1.0.50"/>
 
 
 
@@ -152,6 +152,13 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+
+## Changes in 1.0.50
+* Add: support for dBV, dBW, V, and W display units with Amplitude Voltage (FS) and Resistance calibration settings
+* Fix: reprocessed data from history entry didn't quite match the original measurements due to lower number of averages
+* Fix: history click/unclick sometimes selected the previous entry even when the checkbox was not clicked
+* Fix: color selection dropdown in history sometimes required two clicks
+* Fix: switching to Spectrum plot after a sweep, but with the sweep still selected, and then doing nning a measurement would perform a spectrum analysis instead of the sweep
 
 ## Changes in 1.0.49
 * Add: Amplitude Spectrum Density display option (scales spectrum display per sqrt(Hz)) to remove the effect of FFT gain on noise floor
