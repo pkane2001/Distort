@@ -159,7 +159,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: reprocessed data from history entry didn't quite match the original measurements due to lower number of averages
 * Fix: history click/unclick sometimes selected the previous entry even when the checkbox was not clicked
 * Fix: color selection dropdown in history sometimes required two clicks
-* Fix: switching to Spectrum plot after a sweep, but with the sweep still selected, and then doing nning a measurement would perform a spectrum analysis instead of the sweep
+* Fix: switching to Spectrum plot after a sweep, but with the sweep still selected, and then performing a measurement would do a spectrum analysis instead of the sweep
 
 ## Changes in 1.0.49
 * Add: Amplitude Spectrum Density display option (scales spectrum display per sqrt(Hz)) to remove the effect of FFT gain on noise floor
