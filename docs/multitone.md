@@ -155,6 +155,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 ## Changes in 1.0.50
 * Add: support for dBV, dBW, V, and W display units with Amplitude Voltage (FS) and Resistance calibration settings
+* Add: support for creating Frequency-modulated test signals and adding a couple of test signals to the drop-down list
 * Fix: reprocessed data from history entry didn't quite match the original measurements due to lower number of averages
 * Fix: history click/unclick sometimes selected the previous entry even when the checkbox was not clicked
 * Fix: color selection dropdown in history sometimes required two clicks
