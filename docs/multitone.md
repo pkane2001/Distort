@@ -154,8 +154,10 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 
 ## Changes in 1.0.53
-* Add: support for DSD playback over DOP, supporting DSD64, DSD128, DSD256
+* Add: support for DSD test signal playback over DOP, supporting DSD64, DSD128, DSD256
 * Add: phase plot, calculated when using multitone test signals and the same ADC/DAC sample rate
+* Add: Higher sampling rates up to 768k (possibly higher, if your device(s) support it)
+* Add: File drag-and-drop (on test signal drop-down) feature to measure files without DAC/ADC loopback
 * Fix: when displaying spectrum captured in stereo mode, show full bandwidth of the captured signal
 
 ## Changes in 1.0.50
