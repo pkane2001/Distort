@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.50  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.53  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.50"/>
+<input type="hidden" id="version" name="version" value="1.0.53"/>
 
 
 
@@ -152,6 +152,11 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+
+## Changes in 1.0.53
+* Add: support for DSD playback over DOP, supporting DSD64, DSD128, DSD256
+* Add: phase plot, calculated when using multitone test signals and the same ADC/DAC sample rate
+* Fix: when displaying spectrum captured in stereo mode, show full bandwidth of the captured signal
 
 ## Changes in 1.0.50
 * Add: support for dBV, dBW, V, and W display units with Amplitude Voltage (FS) and Resistance calibration settings
