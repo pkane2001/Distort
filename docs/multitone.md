@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.53  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.54  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.53"/>
+<input type="hidden" id="version" name="version" value="1.0.54"/>
 
 
 
@@ -153,6 +153,10 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 <br>
 
 
+## Changes in 1.0.54
+* Change: improved finding the inital sample alignment between test signal and captured waveform
+* Change: THD/distortion panel now shows THD relative to the fundamental, regardless of the selected units
+
 ## Changes in 1.0.53
 * Add: support for DSD test signal playback over DOP, supporting DSD64, DSD128, DSD256
 * Add: phase plot, calculated when using multitone test signals and the same ADC/DAC sample rate
@@ -169,7 +173,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: color selection dropdown in history sometimes required two clicks
 * Fix: switching to Spectrum plot after a sweep, but with the sweep still selected, and then performing a measurement would do a spectrum analysis instead of the sweep
 
-## Changes in 1.0.49
+**Changes in 1.0.49**
 * Add: Amplitude Spectrum Density display option (scales spectrum display per sqrt(Hz)) to remove the effect of FFT gain on noise floor
 * Add: ability to create new, custom display variables in Results window
 * Fix: level meter fluctuates on steady tone below 5Hz
@@ -180,14 +184,14 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 
 
-## Changes in 1.0.48
+**Changes in 1.0.48**
 * Add: new test signal Silence (can be dithered)
 * Add: setting to position plot legend in any of the four corners
 * Fix: error when displaying a history result with single channel, but requesting the other channel
 * Fix: settings panel resizes to larger when window is maximized and Multitone closed in that state
 * Fix: switching from External test signal to another one records only silence
 
-## Changes in 1.0.47
+**Changes in 1.0.47**
 * Add: capture, measure and compare any two channels from the ADC
 * Add: frequency and level sweeps comparing two capture channels
 * Add: results window can display results for both channels, or a single channel can be selected for comparison
