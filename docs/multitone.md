@@ -154,7 +154,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 
 ## Changes in 1.0.54
-* Change: improved finding the inital sample alignment between test signal and captured waveform
+* Change: improved method to find the initial sample alignment between test signal and captured waveform
 * Change: THD/distortion panel now shows THD relative to the fundamental, regardless of the selected units
 * Fix: calibration file was not applied in spectrum plot after capture
 * Fix: phase plot custom titles not preserved after measurement
