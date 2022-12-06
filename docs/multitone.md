@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.55  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.56  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.55"/>
+<input type="hidden" id="version" name="version" value="1.0.56"/>
 
 
 
@@ -151,6 +151,15 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+
+## Changes in 1.0.56
+* Add: RMS and RMS(A) result display
+* Add: IMD (multitone) distortion panel that includes TD+N, SFDR, Noise, IMD, ENOB and other results
+* Fix: Missing information text on copy plot to clipboard
+* Change: backround display for the distortion information panel
+* Change: auto-adjust result button display to fit all the text
+* Change: Improved IMD calculation now works with multitones with up to 64 tones (was max of 5 previously)
 
 
 ## Changes in 1.0.55
