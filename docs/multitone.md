@@ -154,9 +154,11 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 
 # Changes in 1.0.57
-* Add: Jitter Peak and RMS measurements
+* Add: Jitter Peak and RMS measurements (as results variable, in the distortion display and in sweep plot variable selection)
+* Add: Information panel with random signals
 * Change: additional FFT sizes in the drop-down list (start with 4k)
 * Add: Zoom window for manual plot adjustments
+  
 
 ## Changes in 1.0.56
 * Add: RMS and RMS(A) result display
