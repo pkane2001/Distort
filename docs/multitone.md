@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.57  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.60  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.57"/>
+<input type="hidden" id="version" name="version" value="1.0.60"/>
 
 
 
@@ -153,6 +153,16 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 <br>
 
 
+# Changes in 1.0.60
+* Add: Multiple measurement presets preconfigured for specific types of measurements, one-click selection of all the settings
+* Add: Custom transfer function configuration with harmonic frequency and phase selector for generating specific distortions
+* Add: table viewer and exporter for frequency and level sweep results
+* Change: IMD calculation to work faster with larger multitones
+* Change: Multitone logo added to the top of plots
+* Fix: invert channel option didn't invert
+* Fix: summary measurement settings text was missing from plot image when copied to clipboard
+
+
 # Changes in 1.0.57
 * Add: Jitter Peak and RMS measurements (as results variable, in the distortion display and in sweep plot variable selection)
 * Add: Information panel with random signals
@@ -220,7 +230,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: wrong result when applying calibration file
 
 
-## Changes in 1.0.45
+**Changes in 1.0.45**
 * Add: Maximum number of history entries setting
 * Add: Export/Import history data in *.mth file
 * Fix: SNR was displayed with - sign
