@@ -153,7 +153,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 <br>
 
 
-# Changes in 1.0.60
+## Changes in 1.0.60
 * Add: Multiple measurement presets preconfigured for specific types of measurements, one-click selection of all the settings
 * Add: Custom transfer function configuration with harmonic frequency and phase selector for generating specific distortions
 * Add: table viewer and exporter for frequency and level sweep results
@@ -163,7 +163,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: summary measurement settings text was missing from plot image when copied to clipboard
 
 
-# Changes in 1.0.57
+## Changes in 1.0.57
 * Add: Jitter Peak and RMS measurements (as results variable, in the distortion display and in sweep plot variable selection)
 * Add: Information panel with random signals
 * Change: additional FFT sizes in the drop-down list (start with 4k)
@@ -182,20 +182,20 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 ## Changes in 1.0.55
 * Add: support for measuring difference between two channels ("L-R" input selector). Added to spectrum, frequency response, phase, and waveform plots
 
-## Changes in 1.0.54
+# Changes in 1.0.54
 * Change: improved method to find the initial sample alignment between test signal and captured waveform
 * Change: THD/distortion panel now shows THD relative to the fundamental, regardless of the selected units
 * Fix: calibration file was not applied in spectrum plot after capture
 * Fix: phase plot custom titles not preserved after measurement
 
-## Changes in 1.0.53
+# Changes in 1.0.53
 * Add: support for DSD test signal playback over DOP, supporting DSD64, DSD128, DSD256
 * Add: phase plot, calculated when using multitone test signals and the same ADC/DAC sample rate
 * Add: Higher sampling rates up to 768k (possibly higher, if your device(s) support it)
 * Add: File drag-and-drop (on test signal drop-down) feature to measure files without DAC/ADC loopback
 * Fix: when displaying spectrum captured in stereo mode, show full bandwidth of the captured signal
 
-## Changes in 1.0.50
+# Changes in 1.0.50
 * Add: support for dBV, dBW, V, and W display units with Amplitude Voltage (FS) and Resistance calibration settings
 * Add: support for creating custom Frequency-modulated test signals and adding a couple of test signals to the drop-down list
 * Add: during measurement you can switch to the Waveform plot to see a live preview of the waveform being captured
