@@ -157,6 +157,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: Multiple measurement presets preconfigured for specific types of measurements, one-click selection of all the settings
 * Add: Custom transfer function configuration with harmonic frequency and phase selector for generating specific distortions
 * Add: table viewer and exporter for frequency and level sweep results
+* Add: RIAA anti-correction for measuring RIAA equipped devices, such as phono stages
 * Change: IMD calculation to work faster with larger multitones
 * Change: Multitone logo added to the top of plots
 * Fix: invert channel option didn't invert
