@@ -2,7 +2,7 @@
 title: Earful - Audiophile Hearing Test App
 tags: [Earful]
 keywords: release notes, announcements, what's new, new features
-last_updated: July 27, 2022
+last_updated: January 3, 2023
 summary: "Earful v1.0 is the initial beta release of this software. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: earful.html
@@ -18,7 +18,7 @@ comments: true
 <br>
 
 
-<a href="EarfulSetup.zip">Download Earful for Windows v1.0.13   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
+<a href="EarfulSetup.zip">Download Earful for Windows v1.0.14   <input type="image" id="ear" alt="Earful" src="images/earful_logo.png" width="30" align="top" />   </a>
 
 
 
@@ -86,6 +86,9 @@ To determine equal loudness curve using a second audio device, set Test Type to 
 * Clear All button on the right allows all the data to be cleared from Earful to start over. Please save any data that you may have captured up to this point, as it will be lost.
 
 That's it for now! Hope you find Earful useful, and looking forward to your feedback.
+
+## Changes in 1.0.14
+* Added: keyboard accelerator (Enter key) to manually switch between reference and test device when performing a two-device EQ excercise. Start the two-device EQ mode, as before. The two devices will switch automatically and continually. As soon as you press the Enter key, the automatic mode will switch to manual. Each time the key is pressed, Earful will switch to the other device.
 
 ## Changes in 1.0.13
 * Added: keyboard accelerators when the chart is clicked (in focus): up arrow/down arrow to change volume, left arrow/right arrow to change frequency, page Up/page Down to change volume by 5x the normal setting, and spacebar to stop or start playback.
