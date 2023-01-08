@@ -161,13 +161,14 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: Frequency Response (log-chirp) and Impulse Response (log-chirp) presets
 * Add: Voltage calibration pop-up window
 * Add: Test signal export to a file window with choice of bits, sample rate, duration, and channels to include
+* Add: Right-click in the plot area brings up a menu to hide/show/delete individual elements
 * Add: Clipboard and File image capture with options window added with support for JPEG, PNG, and SVG file formats
-* Add: Continous signal generation by clicking on the speaker icon
-* Add: menu bar at the top of the window to simplify discovery and access to many features, some accelerator keys added
+* Add: Continuous signal generation by clicking on the speaker icon
+* Add: Menu bar at the top of the window to simplify discovery and access to many features, some accelerator keys added
 * Add: Support for 16-bit WASAPI drivers
 * Add: Color assigned to channel 1 and 2 shown next to the Show 1 and 2 checkboxes
 * Add: Color selector for Measurements 1 and 2
-* Change: recording start/stop behavior to capture as much of the test tone as possible
+* Change: Recording start/stop behavior to capture as much of the test tone as possible
 * Change: history checkbox now adds both channels to the plot if two channel signal was recorded
 * Change: drag and drop a WAV file for measurement can now be dropped on the Spectrum plot for analysis
 * Change: Multitone high/low frequency selector, also used for Log-Chirp and Noise generators is now moved to Test Signal section
