@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.60  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.65  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.60"/>
+<input type="hidden" id="version" name="version" value="1.0.65"/>
 
 
 
@@ -54,6 +54,7 @@ Don't use this with your speakers or headphones! The test signals are designed f
 * Select the correct devices from the two drop-down lists at the top of MA screen
 * Select the desired test signal, pick a level and press the red record button
 * Let Multitone Analyzer do the rest. The sequence will be Generate, Record, and then Process. Results will be displayed when the recorded signal is captured and analyzed
+* Starting in version 1.0.60 -- use preconfigured measurement settings (presets) to perform complex measurements with one click, with no need for changing settings
 
 ![multitone](images/multitone4.png)
 
@@ -63,6 +64,7 @@ Don't use this with your speakers or headphones! The test signals are designed f
 3. If you're familiar with my DeltaWave or Distort apps, you can use the same key and mouse combinations in the charts to zoom-in, pan around, or even draw your own annotations
 4. Larger FFT sizes might take a bit of time to generate the first time you use them. Be patient the very first time, as the next time you use the same FFT size, it will go a lot quicker. This is true even after you close and restart MA, or even restart your computer. It'll be a bit slow the very first time.
 5. Both, DAC and ADC must use the same sampling rate. Make sure you configure this in Windows audio device settings. MA will detect the correct sampling rate for the device and use it for WASAPI devices. For ASIO devices, please set the desired sampling rate in settings, under the gear icon.
+
 
 ![multitone](images/multitone-settings.png)
 
@@ -151,6 +153,24 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.65
+* Add: Log-Chirp test signal
+* Add: Impulse Response measurement plot from Log-Chirp
+* Add: Frequency and Phase response computation from Log-Chirp
+* Add: Frequency Response (log-chirp) and Impulse Response (log-chirp) presets
+* Add: Voltage calibration pop-up window
+* Add: Test signal export to a file window with choice of bits, sample rate, duration, and channels to include
+* Add: Clipboard and File image capture with options window added with support for JPEG, PNG, and SVG file formats
+* Add: Continous signal generation by clicking on the speaker icon
+* Add: menu bar at the top of the window to simplify discovery and access to many features, some accelerator keys added
+* Add: Support for 16-bit WASAPI drivers
+* Add: Color assigned to channel 1 and 2 shown next to the Show 1 and 2 checkboxes
+* Add: Color selector for Measurements 1 and 2
+* Change: recording start/stop behavior to capture as much of the test tone as possible
+* Change: history checkbox now adds both channels to the plot if two channel signal was recorded
+* Change: drag and drop a WAV file for measurement can now be dropped on the Spectrum plot for analysis
+* Change: Multitone high/low frequency selector, also used for Log-Chirp and Noise generators is now moved to Test Signal section
 
 
 ## Changes in 1.0.60
