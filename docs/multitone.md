@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.65  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.67  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.65"/>
+<input type="hidden" id="version" name="version" value="1.0.67"/>
 
 
 
@@ -153,6 +153,17 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.67
+* Add: Frequency response/phase/Impulse response analysis from noise signals
+* Add: History selecton now updates FR/phase/IR plots
+* Add: History now allows measurements to be overlayed even those produced using different FFT sizes
+* Add: Mouse movement over the curve in any of the plots will automatically display the X and Y values for that point
+* Add: Linear-Chirp test signal
+* Add: additional position selector options for placing the legend on the plot
+* Fix: Warm-up now works correctly with chirps and noise signals
+* Fix: periodic noise generation (white and pink + bandlimited) corrected
+
 
 ## Changes in 1.0.65
 * Add: Log-Chirp test signal
