@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.67  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.71  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.67"/>
+<input type="hidden" id="version" name="version" value="1.0.71"/>
 
 
 
@@ -154,6 +154,22 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+
+## Changes in 1.0.71
+* Add: support for phase specification in test signal format (for example, 1kHz@90)
+* Add: ability to unlock aspect ratio when copying plot to clipboard or saving to file
+* Add: measurement bandwidth controls (low/high) under Measurement settings to separate measurement from display bandwidths
+* Change: better labels selection for linear frequency axis
+* Change: add a significant digit to frequency axis labels
+* Change: bandwidth selector changed to work consistently across all chart types
+* Change: allow mixing of different sampling rates and FFT sizes from history on the same plot
+* Change: multitone IMD calculation switched to using CCIF method. Previously the default was SMPTE
+* Change: new property section created 'Device', with in/out device settings moved to it from Test Signal
+* Change: number tracker display always uses black text on light blue background now, regardless of contrast setting
+* Fix: certain test signals exceeding 0dBFS previously would result in a missing fundamental, now clipped to 0dBFS
+* Fix: IMD, Noise, SNR calculations didn't work correctly with variable amplitude multitones (e.g., FM signals)
+
+
 ## Changes in 1.0.67
 * Add: Frequency response/phase/Impulse response analysis from noise signals
 * Add: History selecton now updates FR/phase/IR plots
@@ -185,7 +201,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Change: Multitone high/low frequency selector, also used for Log-Chirp and Noise generators is now moved to Test Signal section
 
 
-## Changes in 1.0.60
+**Changes in 1.0.60**
 * Add: Multiple measurement presets preconfigured for specific types of measurements, one-click selection of all the settings
 * Add: Custom transfer function configuration with harmonic frequency and phase selector for generating specific distortions
 * Add: table viewer and exporter for frequency and level sweep results
@@ -196,14 +212,14 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: summary measurement settings text was missing from plot image when copied to clipboard
 
 
-## Changes in 1.0.57
+**Changes in 1.0.57**
 * Add: Jitter Peak and RMS measurements (as results variable, in the distortion display and in sweep plot variable selection)
 * Add: Information panel with random signals
 * Change: additional FFT sizes in the drop-down list (start with 4k)
 * Add: Zoom window for manual plot adjustments
   
 
-## Changes in 1.0.56
+**Changes in 1.0.56**
 * Add: RMS and RMS(A) result display
 * Add: IMD (multitone) distortion panel that includes TD+N, SFDR, Noise, IMD, ENOB and other results
 * Fix: Missing information text on copy plot to clipboard
@@ -212,23 +228,23 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Change: Improved IMD calculation now works with multitones with up to 64 tones (was max of 5 previously)
 
 
-## Changes in 1.0.55
+**Changes in 1.0.55**
 * Add: support for measuring difference between two channels ("L-R" input selector). Added to spectrum, frequency response, phase, and waveform plots
 
-# Changes in 1.0.54
+**Changes in 1.0.54**
 * Change: improved method to find the initial sample alignment between test signal and captured waveform
 * Change: THD/distortion panel now shows THD relative to the fundamental, regardless of the selected units
 * Fix: calibration file was not applied in spectrum plot after capture
 * Fix: phase plot custom titles not preserved after measurement
 
-# Changes in 1.0.53
+**Changes in 1.0.53**
 * Add: support for DSD test signal playback over DOP, supporting DSD64, DSD128, DSD256
 * Add: phase plot, calculated when using multitone test signals and the same ADC/DAC sample rate
 * Add: Higher sampling rates up to 768k (possibly higher, if your device(s) support it)
 * Add: File drag-and-drop (on test signal drop-down) feature to measure files without DAC/ADC loopback
 * Fix: when displaying spectrum captured in stereo mode, show full bandwidth of the captured signal
 
-# Changes in 1.0.50
+**Changes in 1.0.50**
 * Add: support for dBV, dBW, V, and W display units with Amplitude Voltage (FS) and Resistance calibration settings
 * Add: support for creating custom Frequency-modulated test signals and adding a couple of test signals to the drop-down list
 * Add: during measurement you can switch to the Waveform plot to see a live preview of the waveform being captured
