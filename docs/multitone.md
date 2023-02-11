@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.71  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.74  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.71"/>
+<input type="hidden" id="version" name="version" value="1.0.74"/>
 
 
 
@@ -154,6 +154,14 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+## Changes in 1.0.74
+* Add: ability to change units (dBFS/dBr/V/W/dBW/dBV) in level sweep horizontal (X) axis
+* Add: save and restore level and frequency sweeps from history
+* Change: level sweep horizontal axis to use log spacing with non-dB units
+* Change: level sweep horizontal axis to show measured (input) RMS values instead of generated
+* Fix: ASIO drivers could throw an exception when playback is stopped
+* Fix: IMD calculation for two or more tones
+* Change: TIM test signals will now use DIN IMD calculation method (ref. second tone)
 
 ## Changes in 1.0.71
 * Add: support for phase specification in test signal format (for example, 1kHz@90)
