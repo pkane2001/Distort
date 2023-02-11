@@ -161,7 +161,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Change: level sweep horizontal axis to show measured (input) RMS values instead of generated
 * Fix: ASIO drivers could throw an exception when playback is stopped
 * Fix: IMD calculation for two or more tones
-* Change: TIM test signals will now use DIN IMD calculation method (ref. second tone)
+* Change: TIM test signals will now use DIN IMD calculation method (ref. last tone)
 
 ## Changes in 1.0.71
 * Add: support for phase specification in test signal format (for example, 1kHz@90)
