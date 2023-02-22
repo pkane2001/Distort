@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.74  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.75  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.74"/>
+<input type="hidden" id="version" name="version" value="1.0.75"/>
 
 
 
@@ -153,6 +153,11 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.75
+* Add: Test Plan edit and execution
+* Fix: level sweep X-axis labeling when measured in units other than dBFS/dBr
+* Change: ASIO device driver that's not available or not working will be shown in red when selected
 
 ## Changes in 1.0.74
 * Add: ability to change units (dBFS/dBr/V/W/dBW/dBV) in level sweep horizontal (X) axis
