@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.75  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.76  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.75"/>
+<input type="hidden" id="version" name="version" value="1.0.76"/>
 
 
 
@@ -154,6 +154,13 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+## Changes in 1.0.76
+* Fix: reported issues with Test Plan editing/execution
+* Add: Pause message before and after test step execution, fit all data option, {testName} variable
+* Add: watermark setting
+* Add: DIM 30, DIM 100, CEA2006/CE2010/EAJ Burst signals
+* Add: Log-time axis plot
+
 ## Changes in 1.0.75
 * Add: Test Plan edit and execution
 * Fix: level sweep X-axis labeling when measured in units other than dBFS/dBr
@@ -256,234 +263,6 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: Higher sampling rates up to 768k (possibly higher, if your device(s) support it)
 * Add: File drag-and-drop (on test signal drop-down) feature to measure files without DAC/ADC loopback
 * Fix: when displaying spectrum captured in stereo mode, show full bandwidth of the captured signal
-
-**Changes in 1.0.50**
-* Add: support for dBV, dBW, V, and W display units with Amplitude Voltage (FS) and Resistance calibration settings
-* Add: support for creating custom Frequency-modulated test signals and adding a couple of test signals to the drop-down list
-* Add: during measurement you can switch to the Waveform plot to see a live preview of the waveform being captured
-* Fix: reprocessed data from history entry didn't quite match the original measurements due to lower number of averages
-* Fix: history click/unclick sometimes selected the previous entry even when the checkbox was not clicked
-* Fix: color selection dropdown in history sometimes required two clicks
-* Fix: switching to Spectrum plot after a sweep, but with the sweep still selected, and then performing a measurement would do a spectrum analysis instead of the sweep
-
-**Changes in 1.0.49**
-* Add: Amplitude Spectrum Density display option (scales spectrum display per sqrt(Hz)) to remove the effect of FFT gain on noise floor
-* Add: ability to create new, custom display variables in Results window
-* Fix: level meter fluctuates on steady tone below 5Hz
-* Fix: short frequency range multitone test signal can cause a crash in generate function
-* Fix: hang if frequency sweep starts with 0Hz
-* Change: remove detection of noisy measurements in sweeps
-
-
-
-
-**Changes in 1.0.48**
-* Add: new test signal Silence (can be dithered)
-* Add: setting to position plot legend in any of the four corners
-* Fix: error when displaying a history result with single channel, but requesting the other channel
-* Fix: settings panel resizes to larger when window is maximized and Multitone closed in that state
-* Fix: switching from External test signal to another one records only silence
-
-**Changes in 1.0.47**
-* Add: capture, measure and compare any two channels from the ADC
-* Add: frequency and level sweeps comparing two capture channels
-* Add: results window can display results for both channels, or a single channel can be selected for comparison
-* Change: ASIO buffer management to speed up data processing. Smaller ASIO buffer size is now supported.
-* Fix: wrong result when applying calibration file
-
-
-**Changes in 1.0.45**
-* Add: Maximum number of history entries setting
-* Add: Export/Import history data in *.mth file
-* Fix: SNR was displayed with - sign
-* Fix: SNR was computed incorrectly for different frequency ranges
-* Fix: data not removed from plot when corresponding history entry is deleted
-* Fix: error when clicking on Selection header when nothing is selected in history
-* Fix: latest measurement selected from history is wrong color and missing series label
-* Fix: new measurements don't appear in comparison results when selected
-
-
-**Changes in 1.0.43**
-* Add: Measurement 1 and 2 selector for sweeps. Allows any combination of two measurements to be plotted against each other
-* Add: Measurement value selector in Results display to customize the reported values
-* Add: History measurement/comparison selector in Results display to compare the current result to any number of previous ones, side by side
-* Add: Fundamental amplitude result
-* Add: SFDR measurement frequency
-
-
-**Changes in 1.0.42**
-* Add: Results window display
-* Add: all settings load and save options
-* Add: Index to (dB) property
-* Add: Index and marker settings to Frequency Response and Frequency Sweep plots
-* Add: Refresh all plots button
-* Add: SFDR measurement to one-tone test signal results
-* Add: date/time column to history, separate from label
-* Change: history selection behavior (check mark always adds to the plot, double-click causes recalculation of all results for that entry)
-* Change: Index to and Index at settings apply to all spectrum plots and measurements, not just history
-* Fix: Floating point files saved to disk now have the correct IEEE format (3) setting
-* Fix: axes labels sometimes could be displayed multiple times, overlapping, when changing settings
-
-**Changes in 1.0.41**
-* Add: support for additional channels with ASIO and WASAPI multi-channel drivers
-* Add: sawtooth and reverse-sawtooth test signals
-* Add: cool-down setting for sweeps and repeated tests
-* Add: property settings panels for Waveform and Frequency response plots
-* Fix: low-level (LSB) errors with ASIO and WASAPI drivers due to 24-bit truncation in 32-bit floating point
-* Fix: scaling of the waveform plot when different sampling rates are used for playback and recording
-
-**Changes in 1.0.38**
-* Fix: channel selector not always restored correctly on start-up
-* Fix: frequency sweep shows wrong level on the status bar and sweep output level changes from the selected play gain during the sweep
-
-
-**Changes in 1.0.37**
-* Fix: regression in .37 - play gain applied twice
-* 
-**Changes in 1.0.36**
-* Fix: when using file as source, changing file didn't update the test signal due to caching
-* Fix: apply dither to source file if play gain setting is adjusted and dither option is enabled
-* Fix: adjust 24 bit scaling to not exceed full scale when converting to/from floating point
-* Fix: save window position and other settings when changing some parameters on the main screen
-* Add: frequency vs TD+N and IMD sweep
-* Add: option to sweep one or all frequencies
-
-
-**Changes in 1.0.35**
-* Fix: History color picker causing a hang
-* Add: setting to show/hide THD display panel
-* Add: setting to index all history plots at the same frequency
-* Add: Periodic White and Pink noise test signals tied to the current FFT frequency
-* Add: Automatic looping of external files when used as a test signal
-* Fix: add back the value of 1 to the clipboard scale setting in the property list
-
-
-**Changes in 1.0.34**
-* Fix: Waveform plot is now displayed (was missing in .32)
-* Fix: Remove unnecessary units next to each axis label (dB, etc.)
-* Fix: re-enable processing External data
-* Change: adjust font sizes (title, and measurements)
-* Add: axes labels to all charts
-* Fix: dither applied correctly for different bit-sizes
-* Fix: processing THD and harmonics detection in the presence of large noise in LF
-* Fix: restoring hybrid/coherently averaged data from history displayed noisy data
-* Add: selector save generated test files in 32- and 64-bit floating point
-* Add: automatic update of displayed plots when changing chart properties with no need to re-capture data
-* Change: marker setting now allows for multiple markers to be added to the same plot
-
-**Changes in 1.0.32**
-* Add: Spectrum and IMD Sweep charts now can be configured in the main window, using a property sheet
-* Add: Marker line can be added to the spectrum line to indicate a specific frequency
-* Add: Spectrum and Sweep chart titles can be customized
-* Add: X and Y axes labels on Spectrum and IMD chart
-* Add: Spectrum and Sweep chart font size can be adjusted
-* Add: Image copy to clipboard, text rearranged to not cover up the plot area, additional values added
-* Change: Sweep cylce starts with 1 instead of 0
-* Change: averages are now computed on all available data instead of doing one at a time (faster, all averages always complete)
-* Change: IMD Sweep window now automatically scales with data, individual measurements are indicated on the chart
-* Change: in low-contrast display, plot background is now white, not gray. Other colors adjusted for better visibility
-* Fix: IMD Sweep X-axis didn't show fractions of dB when zoomed-in
-* Fix: average overlap in settings didn't work with decimal comma separator
-* Fix: Input WASAPI driver wasn't always correctly restored on start
-
-
-**Changes in 1.0.31**
-** Fix: hang or crash with certain ASIO drivers when ending recording or closing Multitone
-
-**Changes in 1.0.30**
-* Fix: regression from .29 -- play gain is applied twice 
-* Level sweep isn't displaying results
-
-
-**Changes in 1.0.29**
-* Add: display RMS and dBA value display when not using discrete tones as the test signal
-* Add: white and pink noise to test signal list
-* Add: restore main Multitone window position and size on restart
-* Change: some minor UI changes (labels, tooltips, fonts, etc.)
-* Change: allow test signal generation to be interrupted by stop button
-* Change: don't regenerate the same test signal if no parameters changed between test runs
-* Change: reduce memory pressure by not making copies of the original test waveform
-* Change: move frequency response curve to be around 0dB in the plot
-* Change: clear zoom levels when switching FFT sizes to allow the plot to auto-scale
-* Change: the state of Show 1 and Show 2 checks automatically apply for future measurements
-* Change: 'Detect driver changes' will now also disable testing of connected ASIO driver on start-up when not checked
-* Change: frequency response plot stays in focus when running new measurements (switched to spectrum plot before)
-* Fix: record second channel (R) with ASIO devices (reported issue with MADIFace ASIO driver)
-* Fix: selected history items now remain checked when closing/re-opening history window
-* Fix: history items show fully averaged result (previously only first FFT-sized average was displayed)
-* Fix: allow smaller than 64k FFT sizes to be entered for measurements by typing them in
-
-**Changes in 1.0.28**
-* Fix: preview window now shows the full audio spectrum from 20Hz to 24kHz
-* Fix: occasional OxyPlot exception message displayed in the plot area
-* Fix: AES17 notch applied incorrectly on dual-tone test signals
-
-**Changes in 1.0.27**
-* Add: Support for different sampling rates for record and play devices
-* Add: ASIO sample rates can now be specified separately, one for input, the other for output
-* Add: WASAPI configuration/control panel for in and out devices
-* Change: THD+N is now computed over the selected frequency range (previously over the entire bandwidth)
-* Fix: Preview window occasional glitch reduced
-* Add: High/low contrast display option/color scheme selector
-* Change: Red-X on the main window will now clear collected averages and continue measurement for any left-over averages any time its pressed during measurement
-* Change: ASIO devices that are not connected to the PC will no longer be listed in the device list
-* Change: Dither can now be specified in fractional bits (as in 22.5)
-
-**Changes in 1.0.26**
-* Fix: Direct Sound driver selector broken in recent updates
-
-**Changes in 1.0.25**
-* Fix: WASAPI Exclusive mode now works with best available bit setting (previously only 16 bits)
-
-**Changes in 1.0.24**
-* Fix & Change: WASAPI Shared mode setting renamed to WASAPI Exclusive. The meaning was previously swapped
-* Fix: Some ASIO drivers couldn't be mixed with WASAPI or other ASIO drivers because each driver tried to open channels for input and output
-  
-**Changes in 1.0.22**
-* Change: better detect the start of the playback waveform by measuring noise floor
-* Add: option to turn off audio new/removed driver detection to alleviate too many notifications caused by some drivers
-* Fix: THD is now calculated within the selected frequency range (was over the whole bandwidth)
-* Change: optimizations to allow for smaller ASIO buffer sizes, faster sampling rates, and better performance on slower computers
-
-**Changes in 1.0.19**
-* Fixed: occasional stutter at the end of audio capture
-* Fixed: waveform tab is now showing the correct captured waveform (was broken in .17)
-* Fixed: selected audio driver changing when sample rate is changed by ASIO driver or some other changes occur
-
-**Changes in 1.0.18**
-* Fixed: Average overlap setting used US-style decimal point causing errors in regions where decimal comma is used
-* Fixed: Occasional hangs when using certain ASIO drivers
-* Changed: When using averaging, the results are no longer recomputed when capture is completed, saving time
-
-**Changes in 1.0.17**
-* Added: AES17 spec notch filter for THD+N measurements
-* Added: Support for REW-style input device calibration file
-* Changed: display running average spectrum while collecting data
-* Reverted: ASIO channel management change in .16 caused ASIO recording to fail for some users
-
-**Changes in 1.0.16**
-* Added: Amplitude (in-coherent), Coherent, and Hybrid averaging and related computations
-* Added: Average overlap % selector
-* Added: Repeat option to continually repeat the selected measurement
-* Added: History color and label editing capability, delete selected (or all) history entries
-* Added: Kaiser 6, 12, and Chebyshev 200 FFT Windows
-* Added: Option to save generated test signal to a 64-bit WAV file
-* Added: Noise measurement to harmonic distortion panel
-* Changed: External test source fundamental tone extraction
-* Changed: IMD computation to include SMPTE/DIN/CCIF
-* Changed: Harmonic amplitudes are now always displayed relative to the fundamental, regardless of dBr setting
-* Fixed: ASIO input selector for channels might cause a crash with the Right channel selected
-
-**Changes in 1.0.15**
-* Added: Copy current plot to the clipboard with scaling factor configurable in settings
-
-**Changes in 1.0.14**
-* Added: J-Test 24 and J-Test 16 test signals for jitter measurements
-* Added: Option to change frequency axis display between log and linear
-* Added: Option to select how many harmonic components to show on the display
-* Added: Automatic numbering of harmonics in the frequency plot
-* Changed: IMD calculations improved accuracy and switched to using more common calculations (SMPTE and CCIF)
-* Changed: Level/IMD sweep plot X-axis will now show test signal amplitude in dBFS (previously showed measured signal)
 
 
 ___
