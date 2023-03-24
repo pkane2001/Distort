@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.76  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.77  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.76"/>
+<input type="hidden" id="version" name="version" value="1.0.77"/>
 
 
 
@@ -31,7 +31,7 @@ comments: true
 * <a href="https://deltaw.org" target="_blank">DeltaWave</a> - Audio null analyzer and audibility tester
 * <a href="https://distortaudio.org" target="_blank">DISTORT</a> - Your personal simulation of what various distortions do to audio
 * <a href="https://distortaudio.org/pkharmonic.html">PKHarmonic VST Plugin </a> - VST Plugin to add the desired level of 2nd and other harmonics 
-* <a href="https://distortaudio.org/earful.html">Earful </a> - An audiophile Hearing Test 
+* <a href="https://distortaudio.org/earful.html">Earful </a> - An audiophile Hearing Test
 <br>
 
 ## Support forum
@@ -153,6 +153,13 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.77
+* Fix: square wave measurements regression
+* Add: support for custom setting note in plot image capture/save and as part of test measurement
+* Add: Intersample over test presets @ 44.1k
+* Add: sinc interpolation option to test plan settings under Chart section
+* Fix: sinc interpolation didn't scale properly in the waveform plot when Fs-in didn't equal Fs-out
 
 ## Changes in 1.0.76
 * Fix: reported issues with Test Plan editing/execution
