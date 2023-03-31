@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.77  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.78  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.77"/>
+<input type="hidden" id="version" name="version" value="1.0.78"/>
 
 
 
@@ -153,6 +153,11 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.78
+* Fix: noise and SNR calculations (were +3dB previously)
+* Fix: DIM 30/100 test signal specification (and others) that include a decimal point didn't work with some regional settings using comma
+* Change: test signals that include a phase specification will now use the exact frequency and not one centered on an FFT bin (1khz@45, for example)
 
 ## Changes in 1.0.77
 * Fix: square wave measurements regression
