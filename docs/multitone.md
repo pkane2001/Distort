@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.78  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.79  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.78"/>
+<input type="hidden" id="version" name="version" value="1.0.79"/>
 
 
 
@@ -153,6 +153,12 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.79
+* Add: group plots in test plan by specifying Plot Group and Group Plot label
+* Add: zoom-in and out using scroll-bars in the zoom window
+* Fix: regression from .78: linearity sweep was broken due to new fractional frequency logic
+* Fix: window position can change during test plan execution if window was moved during plan creation
 
 ## Changes in 1.0.78
 * Fix: noise and SNR calculations (were +3dB previously)
