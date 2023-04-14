@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.79  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.80  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.79"/>
+<input type="hidden" id="version" name="version" value="1.0.80"/>
 
 
 
@@ -153,6 +153,16 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.80
+* Add: HTML files with tables generated for each step, group or sweep in the test plan, with detailed results
+* Add: Cool-down threshold setting to allow cool-down period to be observed only above certain measured RMS value
+* Add: Option to turn off individual sample markers in Waveform and Sweep plots
+* Add: Measurement duplicate button in Test Plan editor window
+* Change: test plan execution window now support selecting one or more individual measurements to perform
+* Change: FM test signals now support exact/fractional frequencies and phase specification using '@'
+* Fix: occasional window resize/reposition after a test plan completes
+
 
 ## Changes in 1.0.79
 * Add: group plots in test plan by specifying Plot Group and Group Plot label
