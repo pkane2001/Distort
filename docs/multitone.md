@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.80  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.82  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.80"/>
+<input type="hidden" id="version" name="version" value="1.0.82"/>
 
 
 
@@ -153,6 +153,11 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.82
+* Change: Multitone generation with decoherent setting will now produce a more dense set of tones in the lower frequencies
+* Add: setting for Phase plot display to remove constant group delay
+* Fix: phase plot result showed absolute phase reversed
 
 ## Changes in 1.0.80
 * Add: HTML files with tables generated for each step, group or sweep in the test plan, with detailed results
