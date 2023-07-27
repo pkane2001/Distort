@@ -159,6 +159,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: "Hide small harmonics" option to not include any harmonics in the display that are below noise floor
 * Add: external file tone detection threshold settings to allow for measuring high-distortion devices, such as turntable cartridges
 * Add: noise level specification in transfer function window
+* Change: when using external source or doing a measurement from a file, the recorder channel setting ("L", "R", "L+R") will now be honored. Previously all 2 channel files were processed with both channels, regardless of this setting
 * Change: Rework and simplification of the noise calculation
 * Fix: some settings on the main window might reset to older values when a new measurement is initiated (FFT size, # of averages, etc.)
 
