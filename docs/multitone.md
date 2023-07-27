@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.84  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.87  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.84"/>
+<input type="hidden" id="version" name="version" value="1.0.87"/>
 
 
 
@@ -153,6 +153,14 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.87
+* Add: Prevent computer from sleeping while running a long test
+* Add: "Hide small harmonics" option to not include any harmonics in the display that are below noise floor
+* Add: external file tone detection threshold settings to allow for measuring high-distortion devices, such as turntable cartridges
+* Add: noise level specification in transfer function window
+* Change: Rework and simplification of the noise calculation
+* Fix: some settings on the main window might reset to older values when a new measurement is initiated (FFT size, # of averages, etc.)
 
 ## Changes in 1.0.84
 * Add: Spectrogram plot and tab
