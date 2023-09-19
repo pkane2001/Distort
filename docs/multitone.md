@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.90  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.91  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.90"/>
+<input type="hidden" id="version" name="version" value="1.0.91"/>
 
 
 
@@ -154,6 +154,10 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+## Changes in 1.0.91
+* Fix: regression from .90 - A-Weighted noise (NoiseA) was displaying unweighted noise in distortion panel
+* Change: Added Frequency column to the exported Spectrum CSV file
+
 ## Changes in 1.0.90
 * Add: export Spectrum as CSV file menu option
 * Change: enhancements to dither algorithm when writing test signal files and playing back using ASIO and WASAPI
@@ -183,7 +187,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: setting for Phase plot display to remove constant group delay
 * Fix: phase plot result showed absolute phase reversed
 
-## Changes in 1.0.80
+**Changes in 1.0.80**
 * Add: HTML files with tables generated for each step, group or sweep in the test plan, with detailed results
 * Add: Cool-down threshold setting to allow cool-down period to be observed only above certain measured RMS value
 * Add: Option to turn off individual sample markers in Waveform and Sweep plots
@@ -193,37 +197,37 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: occasional window resize/reposition after a test plan completes
 
 
-## Changes in 1.0.79
+**Changes in 1.0.79**
 * Add: group plots in test plan by specifying Plot Group and Group Plot label
 * Add: zoom-in and out using scroll-bars in the zoom window
 * Fix: regression from .78: linearity sweep was broken due to new fractional frequency logic
 * Fix: window position can change during test plan execution if window was moved during plan creation
 
-## Changes in 1.0.78
+**Changes in 1.0.78**
 * Fix: noise and SNR calculations (were +3dB previously)
 * Fix: DIM 30/100 test signal specification (and others) that include a decimal point didn't work with some regional settings using comma
 * Change: test signals that include a phase specification will now use the exact frequency and not one centered on an FFT bin (1khz@45, for example)
 
-## Changes in 1.0.77
+**Changes in 1.0.77**
 * Fix: square wave measurements regression
 * Add: support for custom setting note in plot image capture/save and as part of test measurement
 * Add: Intersample over test presets @ 44.1k
 * Add: sinc interpolation option to test plan settings under Chart section
 * Fix: sinc interpolation didn't scale properly in the waveform plot when Fs-in didn't equal Fs-out
 
-## Changes in 1.0.76
+**Changes in 1.0.76**
 * Fix: reported issues with Test Plan editing/execution
 * Add: Pause message before and after test step execution, fit all data option, {testName} variable
 * Add: watermark setting
 * Add: DIM 30, DIM 100, CEA2006/CE2010/EAJ Burst signals
 * Add: Log-time axis plot
 
-## Changes in 1.0.75
+**Changes in 1.0.75**
 * Add: Test Plan edit and execution
 * Fix: level sweep X-axis labeling when measured in units other than dBFS/dBr
 * Change: ASIO device driver that's not available or not working will be shown in red when selected
 
-## Changes in 1.0.74
+** Changes in 1.0.74**
 * Add: ability to change units (dBFS/dBr/V/W/dBW/dBV) in level sweep horizontal (X) axis
 * Add: save and restore level and frequency sweeps from history
 * Change: level sweep horizontal axis to use log spacing with non-dB units
@@ -232,7 +236,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: IMD calculation for two or more tones
 * Change: TIM test signals will now use DIN IMD calculation method (ref. last tone)
 
-## Changes in 1.0.71
+**Changes in 1.0.71**
 * Add: support for phase specification in test signal format (for example, 1kHz@90)
 * Add: ability to unlock aspect ratio when copying plot to clipboard or saving to file
 * Add: measurement bandwidth controls (low/high) under Measurement settings to separate measurement from display bandwidths
@@ -247,7 +251,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: IMD, Noise, SNR calculations didn't work correctly with variable amplitude multitones (e.g., FM signals)
 
 
-## Changes in 1.0.67
+**Changes in 1.0.67**
 * Add: Frequency response/phase/Impulse response analysis from noise signals
 * Add: History selecton now updates FR/phase/IR plots
 * Add: History now allows measurements to be overlayed even those produced using different FFT sizes
@@ -258,7 +262,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: periodic noise generation (white and pink + bandlimited) corrected
 
 
-## Changes in 1.0.65
+**Changes in 1.0.65**
 * Add: Log-Chirp test signal
 * Add: Impulse Response measurement plot from Log-Chirp
 * Add: Frequency and Phase response computation from Log-Chirp
