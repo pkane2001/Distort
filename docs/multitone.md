@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.91  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.95  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.91"/>
+<input type="hidden" id="version" name="version" value="1.0.95"/>
 
 
 
@@ -153,6 +153,13 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.95
+* Fix: preview spectrum window jumping during capture
+* Fix: preview spectrum window jumping at the end of capture
+* Change: clearing all samples captured after the end of test signal to make sure only test signal itself is used for display/analysis
+* Change: Optimized CPU utilization and decreased time needed to process preview FFT window and preview Spectrum during capture
+* Fix: H1 value in the distortion panel was always shown in dBFS, even when dBr units were selected
 
 ## Changes in 1.0.91
 * Fix: regression from .90 - A-Weighted noise (NoiseA) was displaying unweighted noise in distortion panel
