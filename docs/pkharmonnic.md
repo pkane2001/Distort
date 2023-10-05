@@ -14,7 +14,7 @@ comments: true
 ![PKHarmonic](images/pkharmonic.png)
 <br>
 
-# Version 1.0.2
+# Version 1.0.3
 <a href="PKHarmonic64.zip">Download 64-bit PKHarmonic VST for Windows  </a><br>
 <a href="PKHarmonic32.zip">Download 32-bit PKHarmonic VST for Windows </a>
 
@@ -61,6 +61,12 @@ C:\Program Files\PKAudio\PKHarmonic64 for the 64-bit plugin, and<br><br>
 C:\Program Files (x86)\PKAudio\PKHarmonic32 for the 32-bit plugin
 
 Then, follow the instructions for your specific player software that supports VST to add it to the audio chain. If you use Equalizer APO, you can add PKHarmonic to all audio playback that EQ APO supports, regardless of the player.
+
+## Changes in 1.0.3
+* Added: a mixer slider to allow to mix wet and dry signal in any proportion
+* Changed: reducing clicks and other noises when making real-time adjustments
+* Changed: reducing DC that is generated when even harmonics are specified
+* Changed: better matching of wet signal level to bypass level
 
 ## Changes in 1.0.2
 * Changed the 32-bit installer to remove extra System.* DLL files
