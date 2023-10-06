@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.96  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.97  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.96"/>
+<input type="hidden" id="version" name="version" value="1.0.97"/>
 
 
 
@@ -153,6 +153,13 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.0.97
+* Fix: regression from .96 - fix H1 display value
+* Change: additional speed-up of preview calculations to further improve latency
+* Fix: dither setting wasn't being applied with certain WASAPI drivers
+* Fix: NaN displayed for Jitter RMS value (J-rms) when 0 jitter was detected
+* Fix: regression from .96 - level and frequency sweeps showed incorrect results after the first 1-2 points
 
 ## Changes in 1.0.96
 * Fix: regression from 0.95 - measurement results changed depending on the number of averages specified
