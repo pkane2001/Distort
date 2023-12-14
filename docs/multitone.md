@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.97  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.99  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.97"/>
+<input type="hidden" id="version" name="version" value="1.0.99"/>
 
 
 
@@ -154,6 +154,15 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+## Changes in 1.0.99
+* Add: support for Native DSD output on ASIO, up to 1024x48kHz sample rates
+* Fix: CSV spectrum file export to use US decimal point notation for locales where comma is used
+* Fix: two channel ASIO output with multi-channel devices playing on all available channels
+* Fix: recording wasn't working from higher level channels, now works up to 128 channels, with any two consecutive channels being recorded
+* Change: the mouse coordinate tracker display is moved further up so as to not obscure where the mouse is pointing
+* Add: the option to display THD panel with or without the list of harmonics
+* Fix: the save plot image option reversing PNG and JPEG image formats
+
 ## Changes in 1.0.97
 * Fix: regression from .96 - fix H1 display value
 * Change: additional speed-up of preview calculations to further improve latency
@@ -184,7 +193,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Fix: enable support for up to 128 ASIO channels in and out
 * Add: synthetic test <a href="https://distortaudio.org/Multitone Tests 1_0b.pdf">files and results</a> for Multitone and REW
 
-## Changes in 1.0.87
+**Changes in 1.0.87**
 * Add: Prevent computer from sleeping while running a long test
 * Add: "Hide small harmonics" option to not include any harmonics in the display that are below noise floor
 * Add: external file tone detection threshold settings to allow for measuring high-distortion devices, such as turntable cartridges
@@ -193,13 +202,13 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Change: Rework and simplification of the noise calculation
 * Fix: some settings on the main window might reset to older values when a new measurement is initiated (FFT size, # of averages, etc.)
 
-## Changes in 1.0.84
+**Changes in 1.0.84**
 * Add: Spectrogram plot and tab
 
-## Changes in 1.0.83
+**Changes in 1.0.83**
 * Add: Setting to increase Multitone process CPU priority when performing measurements
 
-## Changes in 1.0.82
+**Changes in 1.0.82**
 * Change: Multitone generation with decoherent setting will now produce a more dense set of tones in the lower frequencies
 * Add: setting for Phase plot display to remove constant group delay
 * Fix: phase plot result showed absolute phase reversed
