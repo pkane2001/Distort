@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.0.99  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.1.2  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.0.99"/>
+<input type="hidden" id="version" name="version" value="1.1.2"/>
 
 
 
@@ -153,6 +153,16 @@ SQT_Test4 20/100/13k/13.1k/15k 1:4:1:1:1
 Multitone 1.0.49 introduced the ability to customize title and results display with your own calculations and formatting. This feature is documented <a href="https://distortaudio.org/multitone-exp.html">here</a>.
 
 <br>
+
+## Changes in 1.1.2
+* Add: Wow and Flutter measurements for LPs and tapes,  drift vs frequency plot
+* Change: DC is now ignored if included in the measurement bandwidth for all noise, TD+N, THD, SNR measurements
+* Change: FFT size selector is no longer changed automatically to match sample rate. Any FFT size can be selected for any rate
+* Fix: Zoom dialog scale didn't work correctly for plots from history
+* Fix: Plots with ASD/√Hz units enabled now display correctly
+* Fix: Incorrectly entered play gain will display an error message and default to -300dBFS. Was 0dBFS previously
+* Fix: Calibration file applied to a measurement in history will be used correctly when a plot is displayed for that entry
+* Fix: WAV File... test prompting for file selection more than once when invoked from menu
 
 ## Changes in 1.0.99
 * Add: support for Native DSD output on ASIO, up to 1024x48kHz sample rates
