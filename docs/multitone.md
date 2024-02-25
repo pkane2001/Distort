@@ -162,11 +162,6 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: setting to enable/disable phase unwrapping in phase plot
 * Change: DSD upsampling filter is now increased automatically with larger DSD multipliers to eliminate images above Nyquist
 
-Added dither option to settings
-Added clear plots/results button
-Changed multi-tone generation for better separation in lower frequencies
-Fixed an error when enumerating audio devices that don’t report their settings
-
 
 ## Changes in 1.1.2
 * Add: Wow and Flutter measurements for LPs and tapes,  drift vs frequency plot
