@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.1.6  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.1.7  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.1.6"/>
+<input type="hidden" id="version" name="version" value="1.1.7"/>
 
 
 
@@ -154,6 +154,10 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+
+## Changes in 1.1.7
+* Add: Option to change level sweep view from measured level to generated level
+* Change: Improved switching of units and other settings on Frequency and level sweep plots
 
 ## Changes in 1.1.6
 * Add: frequency calibration file generation and export (File->Export Measurement -> Frequency Response as Text... menu)
