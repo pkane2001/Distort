@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.1.7  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.1.10  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.1.7"/>
+<input type="hidden" id="version" name="version" value="1.1.10"/>
 
 
 
@@ -155,6 +155,25 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 <br>
 
 
+## Changes in 1.1.10
+* Add: Noise floor display in Spectrum plot selected by 'Show Noise Floor' setting
+* Change: clock drift calculation now works with a single tone and multi-tone test signals
+* Add: spectrum range display shows min and max values for all frequencies when spectrum is computed from averaged data
+* Add: IMD+N variable to Level and Frequency sweeps
+* Add: color selector property for 3rd measurement in Level and Frequency sweeps
+* Add: option to position distortion panel on the left, in the center, or to the right (default)
+* Add: line color indicators next to the Show 1 and Show 2 checkboxes are now clickable so you can change colors directly there, without opening the properties sheet
+* Fix: color indicators are now shown on start up (previously were invisible until first measurement)
+* Change: added automatic driver refresh on any audio device change (was previously disabled because it caused intermittent hangs)
+* Add: various useful settings to both sweep property sheets
+* Fix: in sweeps retry setting of 0 will no longer display a prompt when a large error occurs, effectively disabling retries
+* Add: retry measurement setting (number of retries, and TD+N difference from the previous result that causes it)
+* Add: third measurement to the plot, allowing up to three different variables to be compared
+* Add: harmonics 2,3,4, and 5 to the list of variables that can be plotted in sweeps
+* Add: support for custom expressions/computations to be used in place of pre-defined plot variables
+* Add: DSD modulator order setting for generating DSD test signals (4 - 7)
+* Change: removed clipboard zoom level setting from the Specturm Chart properties window
+
 ## Changes in 1.1.7
 * Add: Option to change level sweep view from measured level to generated level
 * Change: Improved switching of units and other settings on Frequency and level sweep plots
@@ -186,28 +205,28 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: the option to display THD panel with or without the list of harmonics
 * Fix: the save plot image option reversing PNG and JPEG image formats
 
-## Changes in 1.0.97
+**Changes in 1.0.97**
 * Fix: regression from .96 - fix H1 display value
 * Change: additional speed-up of preview calculations to further improve latency
 * Fix: dither setting wasn't being applied with certain WASAPI drivers
 * Fix: NaN displayed for Jitter RMS value (J-rms) when 0 jitter was detected
 * Fix: regression from .96 - level and frequency sweeps showed incorrect results after the first 1-2 points
 
-## Changes in 1.0.96
+**Changes in 1.0.96**
 * Fix: regression from 0.95 - measurement results changed depending on the number of averages specified
   
-## Changes in 1.0.95
+**Changes in 1.0.95**
 * Fix: preview spectrum window jumping during capture
 * Fix: preview spectrum window jumping at the end of capture
 * Change: clearing all samples captured after the end of test signal to make sure only test signal itself is used for display/analysis
 * Change: Optimized CPU utilization and decreased time needed to process preview FFT window and preview Spectrum during capture
 * Fix: H1 value in the distortion panel was always shown in dBFS, even when dBr units were selected
 
-## Changes in 1.0.91
+**Changes in 1.0.91**
 * Fix: regression from .90 - A-Weighted noise (NoiseA) was displaying unweighted noise in distortion panel
 * Change: Added Frequency column to the exported Spectrum CSV file
 
-## Changes in 1.0.90
+**Changes in 1.0.90**
 * Add: export Spectrum as CSV file menu option
 * Change: enhancements to dither algorithm when writing test signal files and playing back using ASIO and WASAPI
 * Change: reduce the need for larger ASIO buffers, reduce latency
