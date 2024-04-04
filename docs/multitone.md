@@ -164,7 +164,6 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Add: option to position distortion panel on the left, in the center, or to the right (default)
 * Add: line color indicators next to the Show 1 and Show 2 checkboxes are now clickable so you can change colors directly there, without opening the properties sheet
 * Fix: color indicators are now shown on start up (previously were invisible until first measurement)
-* Change: added automatic driver refresh on any audio device change (was previously disabled because it caused intermittent hangs)
 * Add: various useful settings to both sweep property sheets
 * Fix: in sweeps retry setting of 0 will no longer display a prompt when a large error occurs, effectively disabling retries
 * Add: retry measurement setting (number of retries, and TD+N difference from the previous result that causes it)
