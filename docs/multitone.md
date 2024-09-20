@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.1.10  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.1.12  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.1.10"/>
+<input type="hidden" id="version" name="version" value="1.1.12"/>
 
 
 
@@ -154,6 +154,17 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+
+
+## Changes in 1.1.12
+* Add: Periodic or manual interval sweep
+* Change: reduce CPU load during measurements
+* Fix: oscilloscope view jerkiness reduced
+* Fix: counter starts at 0 not 1 in sweeps
+* Fix: interval can vary by a lot between successive captures
+* Fix: the Y-axis label overlap on Waveform plot
+* Fix: the discontinuity at the end of a Native DSD measurement
+* Fix: an issue with the final measurement results not being computed properly when the preview option is turned off in settings
 
 ## Changes in 1.1.10
 * Add: Noise floor display in Spectrum plot selected by 'Show Noise Floor' setting
