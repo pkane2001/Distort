@@ -76,6 +76,8 @@ Don't use this with your speakers or headphones! The test signals are designed f
 4. The Frequency Response chart is only generated with large-size multi-tone test signals (greater than 5 tones). It will be blank for all other test signals.
 
 ![multitone](images/multitone5.png)
+<br><br>
+![multitone](images/multitone-detach.png)
 
 ## Adding custom test signals
 You can design a completely custom test signal by just editing in the parameters on the MA main window. To save the new test, press the + button next to the edit box. The test will be available next time you restart Multitone Analyzer, just pick it from the drop-down list. If you need to remove a previously saved custom test, select it from the list and click the '-' button next to the edit box.
@@ -155,9 +157,9 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 <br>
 
 
-## Changes in 1.2.5
+## Changes in 1.2.5  <a href="https://www.audiosciencereview.com/forum/index.php?threads/beta-test-multitone-loopback-analyzer-software.27844/post-2220210">ASR tests and discussion</a>
 * Add: Floating/detached measurement plots with magnetic borders
-* Add: Collapsable header portion of the main window
+* Add: Collapsible header portion of the main window
 * Add: Cross-correlation averaging option to lower the effect of ADC noise on measurements
 * Add: DC filter measurement option will lower the effect of the DC offset in measured data
 * Add: Clock drift correction setting to eliminate measured clock drift due to independent clocks in the DAC and ADC
