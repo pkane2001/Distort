@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: November 7, 2022
+last_updated: February 21, 2025
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -21,9 +21,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.1.12  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.2.5  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.1.12"/>
+<input type="hidden" id="version" name="version" value="1.2.5"/>
 
 
 
@@ -155,6 +155,17 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 <br>
 
 
+## Changes in 1.2.5
+* Add: Floating/detached measurement plots with magnetic borders
+* Add: Collapsable header portion of the main window
+* Add: Cross-correlation averaging option to lower the effect of ADC noise on measurements
+* Add: DC filter measurement option will lower the effect of the DC offset in measured data
+* Add: Clock drift correction setting to eliminate measured clock drift due to independent clocks in the DAC and ADC
+* Change: IMD calculation improvements, real-time IMD display during capture, and IMD calculated with multitones up to 1024 tones
+* Change: IMD+N calculation now shows the true sum of IMD and noise components
+* Change: SFDR calculation now ignores DC component, even if included by measurement bandwidth
+* Fix: occasional errors with large multitone signals
+* Fix: minor display errors
 
 ## Changes in 1.1.12
 * Add: Periodic or manual interval sweep
