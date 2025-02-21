@@ -159,7 +159,8 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 <br>
 
 
-## Changes in 1.2.5  <a href="https://www.audiosciencereview.com/forum/index.php?threads/beta-test-multitone-loopback-analyzer-software.27844/post-2220210">ASR tests and discussion</a>
+## Changes in 1.2.5  
+(<a href="https://www.audiosciencereview.com/forum/index.php?threads/beta-test-multitone-loopback-analyzer-software.27844/post-2220210">ASR tests and discussion</a>)
 * Add: Floating/detached measurement plots with magnetic borders
 * Add: Collapsible header portion of the main window
 * Add: Cross-correlation averaging option to lower the effect of ADC noise on measurements
