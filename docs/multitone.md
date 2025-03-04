@@ -2,7 +2,7 @@
 title: Multitone - Loopback Analyzer for Audio
 tags: [Multitone]
 keywords: release notes, announcements, what's new, new features
-last_updated: February 21, 2025
+last_updated: March 4, 2025
 summary: "Multitone is currently in beta test. Use at your own risk!"
 sidebar: mydoc_sidebar
 permalink: multitone.html
@@ -24,9 +24,9 @@ comments: true
 <br>
 
 ## Download Multitone
-<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.2.5  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
+<a href="MultitoneSetup.zip">Download Multitone for 64-bit Windows v1.2.8  &nbsp;&nbsp; <input type="image" id="ma" alt="Multitone" src="images/multitone_logo.png" width="30" align="top" />   </a>
 
-<input type="hidden" id="version" name="version" value="1.2.5"/>
+<input type="hidden" id="version" name="version" value="1.2.8"/>
 
 
 
@@ -158,6 +158,13 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 
 <br>
 
+
+## Changes in 1.2.8
+* Change: remove spikes and artifacts at the end of a capture caused by device or audio driver
+* Change: improve zooming behavior on level and frequency sweep charts during capture
+* Change: improve calibration file handling by removing auto-scaling
+* Fix: level sweep plot could occasionally lose one of the measured lines when returning from another plot
+* Fix: spectrum plot distortion panel not shown when captured from another tab
 
 ## Changes in 1.2.5  
 (<a href="https://www.audiosciencereview.com/forum/index.php?threads/beta-test-multitone-loopback-analyzer-software.27844/post-2220210">ASR tests and discussion</a>)
