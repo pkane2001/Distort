@@ -165,6 +165,7 @@ Multitone 1.0.49 introduced the ability to customize title and results display w
 * Change: improve calibration file handling by removing auto-scaling
 * Fix: level sweep plot could occasionally lose one of the measured lines when returning from another plot
 * Fix: spectrum plot distortion panel not shown when captured from another tab
+* Change: improved multitone notch filter design to handle wide-skirted fundamentals
 
 ## Changes in 1.2.5  
 (<a href="https://www.audiosciencereview.com/forum/index.php?threads/beta-test-multitone-loopback-analyzer-software.27844/post-2220210">ASR tests and discussion</a>)
